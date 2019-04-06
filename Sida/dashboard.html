@@ -57,6 +57,7 @@
         <!-- Top Navigation: Left Menu -->
         <ul class="nav navbar-nav navbar-left navbar-top-links">
             <li><a href="dashboard.html"><i class="fa fa-home fa-fw"></i> Min sida</a></li>
+			<li><a href="resultat.html"><i class="fa fa-expeditedssl"></i> Resultat</a></li>
         </ul>
 
         <!-- Top Navigation: Right Menu -->
@@ -84,25 +85,26 @@
                     <li>
                         <a href="#" class="active"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                     </li>
-		      <li>
+					 <li>
                         <a href="https://1drv.ms/p/s!AsGeNz1bC2WNnxY0vzbf2TaReAwE" class="active"><i class="fa fa-product-hunt"></i> Presentation</a>
                     </li>
-		      <li>
-                          <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn<span class="fa arrow"></span></a>
-                             <ul class="nav nav-second-level">
-                       <li>
-                           <a href="flot.html">Ghazal</a>   <!-- Här ni kan skriva era länk till linkedin  -->
-                        </li>
-                       <li>
-                         <a href="morris.html">Kalapna</a>	<!-- Här ni kan skriva era länk till linkedin  -->
-                        </li>
-			<li>
-                         <a href="https://www.linkedin.com/in/cecilijka/">Cecilia</a>
-                        </li>
-                         </ul>
-                  <!-- /.nav-second-level -->
-                        </li>
-                        <li>
+					               
+							 <li>
+                                <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="flot.html">Ghazal</a>   <!-- Här ni kan skriva era länk till linkedin  -->
+                                    </li>
+                                    <li>
+                                        <a href="morris.html">Kalapna</a>	<!-- Här ni kan skriva era länk till linkedin  -->
+                                    </li>
+									<li>
+                                        <a href="https://www.linkedin.com/in/cecilijka/">Cecilia</a>
+                                    </li>
+                                </ul>
+                                <!-- /.nav-second-level -->
+                            </li>
+							<li>
                         <a href="om.html" class="active"><i class="fa fa-align-left"></i> Om undersökning </a>
                     </li>
                 </ul>
@@ -215,9 +217,10 @@
                         </div>
                     </div>
 				
-				          <!-- /.row -->
+				          <!-- vänster sida-->
                     <div class="row">
                         <div class="col-lg-8">
+						  <!-- /.Cecilias power bi-->
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <i class="fa fa-bar-chart-o fa-fw"></i> Power BI 
@@ -229,7 +232,7 @@
                                                 <span class="caret"></span>
                                             </button>
                                             <ul class="dropdown-menu pull-right" role="menu">
-                                                <li><a href="https://app.powerbi.com/view?r=eyJrIjoiMThiYWI2YTItNWZkYy00ZmViLWFjYjEtOWFjYmU4ODZjY2E2IiwidCI6Ijk4NjRjZDNhLTQwZWEtNGI1ZS1iNzhhLTYxMGQ0YmJiNDE5MyIsImMiOjl9">Gå till Dashboard</a>
+                                                <li><a href="https://app.powerbi.com/view?r=eyJrIjoiNjA0NWE3NDAtODQ1Mi00MjIxLWI2MDItZTIzNGE1MTJiNWZkIiwidCI6Ijk4NjRjZDNhLTQwZWEtNGI1ZS1iNzhhLTYxMGQ0YmJiNDE5MyIsImMiOjl9">Gå till Dashboard</a>
                                                 </li>
                                                 <li><a href="https://powerbi.microsoft.com/en-us/downloads/">Hämta Power BI</a>
                                                 </li>
@@ -248,16 +251,46 @@
                                 </div>
                                 <!-- /.panel-body -->
                             </div>
+							
+							 <!-- /Kalapnas power bi-->
+							  <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <i class="fa fa-bar-chart-o fa-fw"></i> Power BI 
+                                    <div class="pull-right">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-default btn-xs dropdown-toggle"
+                                                    data-toggle="dropdown">
+                                                Mer
+                                                <span class="caret"></span>
+                                            </button>
+                                            <ul class="dropdown-menu pull-right" role="menu">
+                                                <li><a href="https://app.powerbi.com/view?r=eyJrIjoiZjFkMmRmYTUtZmYzNC00NjAxLTk0YWItMjc0OWUzZDM1NmUwIiwidCI6IjIwZTllNjU4LWQ4NDQtNGQ5Yy1hMGI3LTM2Mzg5ZDcxNzM2ZiIsImMiOjh9">Gå till Dashboard</a>
+                                                </li>
+                                                <li><a href="https://powerbi.microsoft.com/en-us/downloads/">Hämta Power BI</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.panel-heading -->
+                                <div class="panel-body">
+                                    <div id="morris-area-chart"> 
+
+                                   <div class="embed-responsive embed-responsive-16by9">									<!-- /iframe behöver vi skapa responsive-->
+									<iframe class="embed-responsive-item"  src="https://app.powerbi.com/view?r=eyJrIjoiZjFkMmRmYTUtZmYzNC00NjAxLTk0YWItMjc0OWUzZDM1NmUwIiwidCI6IjIwZTllNjU4LWQ4NDQtNGQ5Yy1hMGI3LTM2Mzg5ZDcxNzM2ZiIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
+									</div>
+									</div>
+                                </div>
+                                <!-- /.panel-body -->
+                            </div>
            
                        
-                            <!-- /.panel -->
-                        </div>
-                        <!-- /.col-lg-8 -->
-                  <div class="col-lg-4">
                            
-                       
-                     
-
+                        </div>
+						
+						<div class="row">
+                        <!-- /.col-lg -->
+                  <div class="col-lg-4">
 						<div class="panel panel-default">
 							  <!-- Här du kan klistra koden till javascript graf -->
                            
@@ -266,7 +299,7 @@
                                 </div>
                                 <div class="panel-body">
                                     <div id="morris-donut-chart"><div id="bästavämtetid" style="height: 300px;"></div></div>
-                                    <a href="#" class="btn btn-default btn-block">Mer</a>
+                                    <a href="https://www.vilkenstorlek.se/geografi/sveriges-storsta-kommuner/" class="btn btn-default btn-block">Mer</a>
                                 </div>
                                 <!-- /.panel-body -->
                            
@@ -275,7 +308,7 @@
 						
 						
 							<div class="panel panel-default">
-							  <!-- Här du kan klistra koden till javascript graf -->
+							  <!-- Här du kan klistra koden till javascript graf morris då använd den "div morris char" annars ta bort den div   -->
                            
                                 <div class="panel-heading">
                                     <i class="fa fa-pie-chart-o fa-fw"></i> nåt
@@ -286,8 +319,7 @@
                                 </div>
                                 <!-- /.panel-body -->
                            
-						</div>
-						
+						</div>	
 			    </div>
 				</div>
 			</div>
