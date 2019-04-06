@@ -27,6 +27,8 @@
 
     <!-- Custom Fonts -->
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -66,7 +68,7 @@
                 <ul class="dropdown-menu dropdown-user">
                     <li><a href="#"><i class="fa fa-user fa-fw"></i> Ghazal</a>   <!-- Här ni kan skriva era mejl adress  -->
                     </li>
-                    <li><a href="#"><i class="fa fa-user fa-fw"></i> Kalapna</a>   <!-- Här ni kan skriva era mejl adress  -->
+                    <li><a href="mailto:kalapna.khatri@yh.nackademin.se"><i class="fa fa-user fa-fw"></i> Kalapna</a>   
                     </li>
 					<li><a href="mailto:cecilia.sobocinska@yh.nackademin.se"><i class="fa fa-user fa-fw"></i> Cecilia</a>
                     </li>
@@ -105,7 +107,7 @@
                                         <a href="flot.html">Ghazal</a>   <!-- Här ni kan skriva era länk till linkedin  -->
                                     </li>
                                     <li>
-                                        <a href="morris.html">Kalapna</a>	<!-- Här ni kan skriva era länk till linkedin  -->
+                                        <a href="https://www.linkedin.com/in/kalapna-khatri/">Kalapna</a>	
                                     </li>
 									<li>
                                         <a href="https://www.linkedin.com/in/cecilijka/">Cecilia</a>
@@ -236,6 +238,7 @@
                                                 Mer
                                                 <span class="caret"></span>
                                             </button>
+
                                             <ul class="dropdown-menu pull-right" role="menu">
                                                 <li><a href="https://app.powerbi.com/view?r=eyJrIjoiMThiYWI2YTItNWZkYy00ZmViLWFjYjEtOWFjYmU4ODZjY2E2IiwidCI6Ijk4NjRjZDNhLTQwZWEtNGI1ZS1iNzhhLTYxMGQ0YmJiNDE5MyIsImMiOjl9">Gå till Dashboard</a>
                                                 </li>
@@ -247,10 +250,17 @@
                                 </div>
                                 <!-- /.panel-heading -->
                                 <div class="panel-body">
-                                    <div id="morris-area-chart">       <!-- /iframe behöver vi skapa responsive-->
-									<iframe width="700" height="500" src="https://app.powerbi.com/view?r=eyJrIjoiMThiYWI2YTItNWZkYy00ZmViLWFjYjEtOWFjYmU4ODZjY2E2IiwidCI6Ijk4NjRjZDNhLTQwZWEtNGI1ZS1iNzhhLTYxMGQ0YmJiNDE5MyIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
+                                    <div id="morris-area-chart"> 
+
+                                   <div class="embed-responsive embed-responsive-16by9">									<!-- /iframe behöver vi skapa responsive-->
+									<iframe class="embed-responsive-item"  src="https://app.powerbi.com/view?r=eyJrIjoiNjA0NWE3NDAtODQ1Mi00MjIxLWI2MDItZTIzNGE1MTJiNWZkIiwidCI6Ijk4NjRjZDNhLTQwZWEtNGI1ZS1iNzhhLTYxMGQ0YmJiNDE5MyIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
+									</div>
 									</div>
                                 </div>
+
+
+                    
+                                
                                 <!-- /.panel-body -->
                             </div>
            
@@ -373,24 +383,35 @@
                        
                                  
                             <!-- Här du kan klistra koden till javascript graf -->
+                            
+                
                             <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <i class="fa fa-pie-chart  fa-fw"></i> Char exempel
-                                </div>
-                                <div class="panel-body">
-                                    <div id="morris-donut-chart"></div>
-                                    <a href="#" class="btn btn-default btn-block">Mer</a>
-                                </div>
+                                <!-- Här du kan klistra koden till javascript graf -->
+                             
+                                  <div class="panel-heading">
+                                      <i class="fa fa-bar-chart-o fa-fw"></i> Char example
+                                  </div>
+                                  <div class="panel-body">
+                                      <div id="morris-donut-chart">
+                                      <hr/>
+                                      <div id="donut-example"></div>
+                                      <hr/>
+                                      <a href="#" class="btn btn-default btn-block">Mer</a>
+                                  </div>
+        
+                                
                                 <!-- /.panel-body -->
                             </div>
 							
-							  <!-- Här du kan klistra koden till javascript graf -->
+                              <!-- Här du kan klistra koden till javascript graf -->
+                             
                             <div class="panel panel-default">
                                 <div class="panel-heading">
-                                    <i class="fa fa-pie-chart  fa-fw"></i> Char exempel
-                                </div>
+                                    <!----<i class="fa fa-pie-chart  fa-fw"></i> Vårdcentraler per Kommun 
+                                    <div id="area-chart" ></div><div id="Vårdcentral" style="height: 400px;"></div></div>
+                                </div>-->
                                 <div class="panel-body">
-                                    <div id="morris-donut-chart"></div>
+                                        <div id="myDiv"><!-- Plotly chart will be drawn inside this DIV --></div>
                                     <a href="#" class="btn btn-default btn-block">Mer</a>
                                 </div>
                                 <!-- /.panel-body -->
@@ -409,6 +430,8 @@
 <!-- jQuery -->
 <script src="js/jquery.min.js"></script>
 
+
+
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 
@@ -416,7 +439,59 @@
 <script src="js/metisMenu.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="js/startmin.js"></script>
+    <!-----<script src="varddata.js"></script>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+<script
+type = "text/javascript">
+new Morris.Bar({
+  // ID of the element in which to draw the chart.
+  element: 'Vårdcentral',
+  // Chart data records -- each entry in this array corresponds to a point on
+  // the chart.
+  data: [
+    { stad: 'Stockholm', vårdcentral: 68 },
+    { stad: 'Södertälje', vårdcentral: 12 },
+    { stad: 'Solna', vårdcentral: 10 },
+    { stad: 'Järfälla', vårdcentral: 6 },
+    { stad: 'Nacka', vårdcentral: 9 },
+	{ stad: 'Haninge', vårdcentral: 8 },
+	{ stad: 'Botkyrka', vårdcentral: 7 },
+    { stad: 'Huddinge', vårdcentral: 6 },
+    { stad: 'Sigtuna', vårdcentral: 8 },
+	{ stad: 'Vaxholm', vårdcentral: 1 },
+	{ stad: 'Österåker', vårdcentral: 3 },
+    { stad: 'Nortälje', vårdcentral: 3 },
+    { stad: 'Nynäshamn', vårdcentral: 4 },
+	{ stad: 'Vallentuna', vårdcentral: 3 },
+	{ stad: 'Sollentuna', vårdcentral: 5 },
+    { stad: 'Upplands Väsby', vårdcentral: 3 },
+    { stad: 'Upplands-bro', vårdcentral: 2 },
+	{ stad: 'Sundbyberg', vårdcentral: 4 },
+	{ stad: 'Ekerö', vårdcentral: 2 },
+    { stad: 'Lindingö', vårdcentral: 2 },
+    { stad: 'Nykvarn', vårdcentral: 1 },
+	{ stad: 'Danderyd', vårdcentral: 3 },
+	{ stad: 'Salem', vårdcentral: 1 },
+    { stad: 'Tyresö', vårdcentral: 3 },
+    { stad: 'Täby', vårdcentral: 5 },
+    { stad: 'Värmdö', vårdcentral: 3 }
+	
+	
+  ],
+  // The name of the data record attribute that contains x-values.
+  xkey: 'stad',
+  // A list of names of data record attributes that contain y-values.
+  ykeys: ['vårdcentral'],
+  // Labels for the ykeys -- will be displayed when you hover over the
+  // chart.
+  labels: ['vårdcentral'],
+  resize: true
+});
+
+</script>-->
 </body>
 </html>
+
