@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+      </head>
+      <body>
+            <script type="text/javascript" src="goodbad.js">   </script>
+            <script type="text/javascript" src="Reviews.js">   </script>
+        <div id="graph"></div>
+
+        <h1>bar chart</h1>
+        
+        <div id="myDiv"></div>
+        
+        <h1>Reviews chart</h1>
+       
+        <div id="mychart"></div>
+        
+        <script>
+var Mottagning = []; // en lista skapas
+  for (i = 0; i < vard.length; i++) {
+    Mottagning.push(vard[i].Mottagning)
+  }; 
+  var Ort= []; // en lista skapas
+  for (i = 0; i < vard.length; i++) {
+    Ort.push(vard[i].Ort)
+  };
+  var year15 = []; // en lista skapas
+  for (i = 0; i < vard.length; i++) {
+    year15.push(vard[i].year15)
+  }; 
+  var year16 = []; // en lista skapas
+  for (i = 0; i < vard.length; i++) {
+    year16.push(vard[i].year16)
+  }; 
+  var accessibility= []; // en lista skapas
+  for (i = 0; i < vard.length; i++) {
+    accessibility.push(vard[i].accessibility)
+  }; 
+        </script>
+
+        <script>
+var Municipality= []; // en lista skapas
+  for (i = 0; i < Reviews.length; i++) {
+    Municipality.push(Reviews[i].Municipality)
+  }; 
+
+  var ENSEMBLE= []; // en lista skapas
+  for (i = 0; i < Reviews.length; i++) {
+    ENSEMBLE.push(Reviews[i].ENSEMBLE)
+  };
+  
+  var Emotional_support= []; // en lista skapas
+  for (i = 0; i < Reviews.length; i++) {
+    Emotional_support.push(Reviews[i].Emotional_support)
+  };
+  
+  var Participation= []; // en lista skapas
+  for (i = 0; i < Reviews.length; i++) {
+    Participation.push(Reviews[i].Participation)
+  };
+
+  var Respect= []; // en lista skapas
+  for (i = 0; i < Reviews.length; i++) {
+    Respect.push(Reviews[i].Respect)
+  };
+
+  var Coordination= []; // en lista skapas
+  for (i = 0; i < Reviews.length; i++) {
+    Coordination.push(Reviews[i].Coordination)
+  };
+
+  var Knowledge= []; // en lista skapas
+  for (i = 0; i < Reviews.length; i++) {
+    Knowledge.push(Reviews[i].Knowledge)
+  };
+  
+  var Availability= []; // en lista skapas
+  for (i = 0; i < Reviews.length; i++) {
+    Availability.push(Reviews[i].Availability)
+  };
+     
+     </script>
+        <script>
+        
+        
+var trace1 = {
+  x: Mottagning,
+  y: accessibility,
+  name: 'Accessibility',
+  type: 'bar'
+};
+
+var data = [trace1];
+var layout = { 
+  title: 'Accessibility'
+};
+
+var config = {
+  modeBarButtons: [[{
+    name: 'stack',
+    click: function(gd) {
+      Plotly.relayout(gd, 'barmode', 'stack');
+    }
+  }, {
+    name: 'overlay',
+    click: function(gd) {
+      Plotly.relayout(gd, 'barmode', 'overlay');
+    }
+  }, {
+    name: 'group',
+    click: function(gd) {
+      Plotly.relayout(gd, 'barmode', 'group');
+    }, 
+  }, {
+    name: 'relative',
+    click: function(gd) {
+      Plotly.relayout(gd, 'barmode', 'relative');
+    }, 
+  }].reverse()]
+}
+
+Plotly.newPlot('graph', data, layout, config);
+        </script>
+
+
+<script>
+
+var trace4 = {
+x: Mottagning, 
+  y: accessibility,
+  mode: 'lines+markers',
+  name: 'accessibility',
+  line: {shape: 'accessibility'},
+  type: 'scatter'
+};
+var trace5 = {
+   x: Mottagning, 
+  y: year15, 
+  mode: 'lines+markers', 
+  name: 'Year 2015', 
+  line: {shape: 'Year 2016'}, 
+  type: 'scatter'
+};
+
+var trace6 = {
+    x: Mottagning,
+  y: year16, 
+  mode: 'lines+markers', 
+  name: 'Year 2016', 
+  line: {shape: 'Year 2016'}, 
+  type: 'scatter'
+};
+
+var data = [trace5, trace6, trace4];
+
+var layout = {legend: {
+    y: 0.5, 
+    traceorder: 'reversed', 
+    font: {size: 16}, 
+    yref: 'paper'
+},
+Xaxis: {
+  
+  title: 'Mottagning'
+},
+yaxis: {title: 'Years'}};
+
+
+Plotly.newPlot('myDiv', data, layout, {showSendToCloud: true});
+</script>
+
+<script>
+var trace7 = {
+x: Municipality, 
+  y: ENSEMBLE,
+  mode: 'lines+markers',
+  name: 'ENSEMBLE',
+  line: {shape: 'ENSEMBLE'},
+  type: 'scatter'
+};
+var trace8 = {
+   x: Municipality , 
+  y: Emotional_support, 
+  mode: 'lines+markers', 
+  name: 'Emotional_support', 
+  line: {shape: 'Emotional_support'}, 
+  type: 'scatter'
+};
+
+var trace9 = {
+    x: Municipality,
+  y: Participation, 
+  mode: 'lines+markers', 
+  name: 'Participation', 
+  line: {shape: 'Participation'}, 
+  type: 'scatter'
+};
+
+var trace10 = {
+x: Municipality, 
+  y: Respect,
+  mode: 'lines+markers',
+  name: 'Respect',
+  line: {shape: 'Respect'},
+  type: 'scatter'
+};
+var trace11 = {
+   x: Municipality , 
+  y: Coordination, 
+  mode: 'lines+markers', 
+  name: 'Coordination', 
+  line: {shape: 'Coordination'}, 
+  type: 'scatter'
+};
+
+var trace12 = {
+    x: Municipality,
+  y: Knowledge, 
+  mode: 'lines+markers', 
+  name: 'Knowledge', 
+  line: {shape: 'Knowledge'}, 
+  type: 'scatter'
+};
+
+var trace13 = {
+    x: Municipality,
+  y: Availability, 
+  mode: 'lines+markers', 
+  name: 'Availability', 
+  line: {shape: 'Availability'}, 
+  type: 'scatter'
+};
+var myreview = [trace7, trace8, trace9,trace10, trace11, trace12, trace13];
+
+var layout = {legend: {
+    y: 0.5, 
+    traceorder: 'reversed', 
+    font: {size: 16}, 
+    yref: 'paper'
+},
+Xaxis: {
+    autorange: true,
+    showgrid: false,
+    zeroline: false,
+    showline: false,
+    autotick: true,
+    ticks: '',
+    showticklabels: false,
+     title: 'Municipalities of Stockholm'
+  },
+yaxis: {
+    range: [40, 90],
+    title: 'Reviews in percent'
+  }
+};
+
+Plotly.newPlot('mychart', myreview, layout, {showSendToCloud: true});
+</script>
+
+    
+</body>
+
+</html>

@@ -1,0 +1,1507 @@
+[
+ {
+   "Mottagning": "Alby vårdcentral",
+   "Ort": "Botkyrka",
+   "2015": "81",
+   "2016": "76",
+   "accessibility": "-5"
+ },
+ {
+   "Mottagning": "Fittja vårdcentral",
+   "Ort": "Botkyrka",
+   "2015": "60",
+   "2016": "71",
+   "accessibility": "11"
+ },
+ {
+   "Mottagning": "Hallunda vårdcentral",
+   "Ort": "Botkyrka",
+   "2015": "78",
+   "2016": "66",
+   "accessibility": "-12"
+ },
+ {
+   "Mottagning": "Salems vårdcentral",
+   "Ort": "Salem",
+   "2015": "84",
+   "2016": "74",
+   "accessibility": "-10"
+ },
+ {
+   "Mottagning": "Storvretens vårdcentral",
+   "Ort": "Botkyrka",
+   "2015": "80",
+   "2016": "77",
+   "accessibility": "-3"
+ },
+ {
+   "Mottagning": "Tullinge vårdcentral",
+   "Ort": "Botkyrka",
+   "2015": "78",
+   "2016": "71",
+   "accessibility": "-7"
+ },
+ {
+   "Mottagning": "Tumba vårdcentral",
+   "Ort": "Botkyrka",
+   "2015": "83",
+   "2016": "83",
+   "accessibility": "0"
+ },
+ {
+   "Mottagning": "Abrahamsbergs vårdcentral",
+   "Ort": "Bromma",
+   "2015": "92",
+   "2016": "90",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Beckomberga vårdcentral",
+   "Ort": "Bromma",
+   "2015": "89",
+   "2016": "80",
+   "accessibility": "-9"
+ },
+ {
+   "Mottagning": "Blackebergs vårdcentral",
+   "Ort": "Bromma",
+   "2015": "86",
+   "2016": "77",
+   "accessibility": "-9"
+ },
+ {
+   "Mottagning": "BrommaAkuten vårdcentral",
+   "Ort": "Bromma",
+   "2015": "84",
+   "2016": "75",
+   "accessibility": "-9"
+ },
+ {
+   "Mottagning": "Brommaplans vårdcentral",
+   "Ort": "Bromma",
+   "2015": "82",
+   "2016": "83",
+   "accessibility": "1"
+ },
+ {
+   "Mottagning": "Nockebyhöjdens vårdcentral",
+   "Ort": "Bromma",
+   "2015": "96",
+   "2016": "92",
+   "accessibility": "-4"
+ },
+ {
+   "Mottagning": "Tranebergs vårdcentral",
+   "Ort": "Bromma",
+   "2015": "89",
+   "2016": "86",
+   "accessibility": "-3"
+ },
+ {
+   "Mottagning": "Äppelvikens Läkarmottagning",
+   "Ort": "Bromma",
+   "2015": "100",
+   "2016": "99",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Djursholms husläkarmottagning",
+   "Ort": "Danderyd",
+   "2015": "93",
+   "2016": "90",
+   "accessibility": "-3"
+ },
+ {
+   "Mottagning": "DjursholmsDoktorn",
+   "Ort": "Danderyd",
+   "2015": "96",
+   "2016": "96",
+   "accessibility": "0"
+ },
+ {
+   "Mottagning": "Enebybergs vårdcentral",
+   "Ort": "Danderyd",
+   "2015": "91",
+   "2016": "92",
+   "accessibility": "1"
+ },
+ {
+   "Mottagning": "Kvartersakuten Mörby Centrum",
+   "Ort": "Danderyd",
+   "2015": "96",
+   "2016": "95",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Mörby vårdcentral",
+   "Ort": "Danderyd",
+   "2015": "88",
+   "2016": "82",
+   "accessibility": "-6"
+ },
+ {
+   "Mottagning": "Stocksunds vårdcentral",
+   "Ort": "Danderyd",
+   "2015": "95",
+   "2016": "91",
+   "accessibility": "-4"
+ },
+ {
+   "Mottagning": "Ekerö vårdcentral",
+   "Ort": "Ekerö",
+   "2015": "84",
+   "2016": "86",
+   "accessibility": "2"
+ },
+ {
+   "Mottagning": "Munsö husläkarmottagning",
+   "Ort": "Ekerö",
+   "2015": "97",
+   "2016": "93",
+   "accessibility": "-4"
+ },
+ {
+   "Mottagning": "Stenhamra hälsocentral",
+   "Ort": "Ekerö",
+   "2015": "90",
+   "2016": "90",
+   "accessibility": "0"
+ },
+ {
+   "Mottagning": "Veritas vårdcentral Ekerö",
+   "Ort": "Ekerö",
+   "2015": "86",
+   "2016": "82",
+   "accessibility": "-4"
+ },
+ {
+   "Mottagning": "Capio vårdcentral Gullmarsplan",
+   "Ort": "Enskede-Årsta-Vantör",
+   "2015": "81",
+   "2016": "73",
+   "accessibility": "-8"
+ },
+ {
+   "Mottagning": "Capio Vårdcentral Hagsätra",
+   "Ort": "Enskede-Årsta-Vantör",
+   "2015": "85",
+   "2016": "82",
+   "accessibility": "-3"
+ },
+ {
+   "Mottagning": "Capio Vårdcentral Högdalen",
+   "Ort": "Enskede-Årsta-Vantör",
+   "2015": "80",
+   "2016": "74",
+   "accessibility": "-6"
+ },
+ {
+   "Mottagning": "Capio vårdcentral Rågsved",
+   "Ort": "Enskede-Årsta-Vantör",
+   "2015": "68",
+   "2016": "65",
+   "accessibility": "-3"
+ },
+ {
+   "Mottagning": "Capio Vårdcentral Årsta",
+   "Ort": "Enskede-Årsta-Vantör",
+   "2015": "86",
+   "2016": "74",
+   "accessibility": "-12"
+ },
+ {
+   "Mottagning": "Dalens vårdcentral",
+   "Ort": "Enskede-Årsta-Vantör",
+   "2015": "79",
+   "2016": "77",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Stureby vårdcentral",
+   "Ort": "Enskede-Årsta-Vantör",
+   "2015": "91",
+   "2016": "90",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Capio vårdcentral Farsta",
+   "Ort": "Farsta",
+   "2015": "73",
+   "2016": "65",
+   "accessibility": "-8"
+ },
+ {
+   "Mottagning": "Capio vårdcentral Gubbängen",
+   "Ort": "Farsta",
+   "2015": "86",
+   "2016": "69",
+   "accessibility": "-17"
+ },
+ {
+   "Mottagning": "Curera Farsta Husläkarmottagning",
+   "Ort": "Farsta",
+   "2015": "77",
+   "2016": "84",
+   "accessibility": "7"
+ },
+ {
+   "Mottagning": "Sköndals husläkarmottagning",
+   "Ort": "Farsta",
+   "2015": "90",
+   "2016": "84",
+   "accessibility": "-6"
+ },
+ {
+   "Mottagning": "Vårdcentralen Hökarängen",
+   "Ort": "Farsta",
+   "2015": "89",
+   "2016": "88",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Brandbergens vårdcentral",
+   "Ort": "Haninge",
+   "2015": "86",
+   "2016": "80",
+   "accessibility": "-6"
+ },
+ {
+   "Mottagning": "Familjeläkarna Tungelsta",
+   "Ort": "Haninge",
+   "2015": "73",
+   "2016": "86",
+   "accessibility": "13"
+ },
+ {
+   "Mottagning": "Handens vårdcentral (+Dalarö, Utö)",
+   "Ort": "Haninge",
+   "2015": "75",
+   "2016": "73",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Hälsocentralen AKKA",
+   "Ort": "Haninge",
+   "2015": "78",
+   "2016": "80",
+   "accessibility": "2"
+ },
+ {
+   "Mottagning": "Jordbro vårdcentral",
+   "Ort": "Haninge",
+   "2015": "82",
+   "2016": "54",
+   "accessibility": "-28"
+ },
+ {
+   "Mottagning": "Rudans vårdcentral",
+   "Ort": "Haninge",
+   "2015": "78",
+   "2016": "69",
+   "accessibility": "-9"
+ },
+ {
+   "Mottagning": "Vendelsö vårdcentral",
+   "Ort": "Haninge",
+   "2015": "82",
+   "2016": "73",
+   "accessibility": "-9"
+ },
+ {
+   "Mottagning": "Capio vårdcentral Skogås",
+   "Ort": "Huddinge",
+   "2015": "85",
+   "2016": "67",
+   "accessibility": "-18"
+ },
+ {
+   "Mottagning": "Flemingsbergs vårdcentral",
+   "Ort": "Huddinge",
+   "2015": "82",
+   "2016": "75",
+   "accessibility": "-7"
+ },
+ {
+   "Mottagning": "Huddinge vårdcentral",
+   "Ort": "Huddinge",
+   "2015": "81",
+   "2016": "79",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Segeltorps vårdcentral",
+   "Ort": "Huddinge",
+   "2015": "88",
+   "2016": "84",
+   "accessibility": "-4"
+ },
+ {
+   "Mottagning": "Stuvsta vårdcentral",
+   "Ort": "Huddinge",
+   "2015": "82",
+   "2016": "78",
+   "accessibility": "-4"
+ },
+ {
+   "Mottagning": "Trångsunds vårdcentral",
+   "Ort": "Huddinge",
+   "2015": "81",
+   "2016": "77",
+   "accessibility": "-4"
+ },
+ {
+   "Mottagning": "Vårby vårdcentral",
+   "Ort": "Huddinge",
+   "2015": "82",
+   "2016": "86",
+   "accessibility": "4"
+ },
+ {
+   "Mottagning": "Axelsbergs vårdcentral",
+   "Ort": "Hägersten-Liljeholmen",
+   "2015": "81",
+   "2016": "78",
+   "accessibility": "-3"
+ },
+ {
+   "Mottagning": "Fruängens vårdcentral",
+   "Ort": "Hägersten-Liljeholmen",
+   "2015": "79",
+   "2016": "80",
+   "accessibility": "1"
+ },
+ {
+   "Mottagning": "Gröndals vårdcentral",
+   "Ort": "Hägersten-Liljeholmen",
+   "2015": "90",
+   "2016": "83",
+   "accessibility": "-7"
+ },
+ {
+   "Mottagning": "Liljeholmens vårdcentral",
+   "Ort": "Hägersten-Liljeholmen",
+   "2015": "82",
+   "2016": "76",
+   "accessibility": "-6"
+ },
+ {
+   "Mottagning": "Liljeholmskajens vårdcentral",
+   "Ort": "Hägersten-Liljeholmen",
+   "2015": "86",
+   "2016": "80",
+   "accessibility": "-4"
+ },
+ {
+   "Mottagning": "Telefonplans vårdcentral",
+   "Ort": "Hägersten-Liljeholmen",
+   "2015": "91",
+   "2016": "82",
+   "accessibility": "-9"
+ },
+ {
+   "Mottagning": "Husläkarmottagningen Västervården",
+   "Ort": "Hässelby-Vällingby",
+   "2015": "83",
+   "2016": "83",
+   "accessibility": "0"
+ },
+ {
+   "Mottagning": "Hässelby vårdcentral",
+   "Ort": "Hässelby-Vällingby",
+   "2015": "83",
+   "2016": "78",
+   "accessibility": "-5"
+ },
+ {
+   "Mottagning": "Råcksta-Vällingby närvårdsmottagning",
+   "Ort": "Hässelby-Vällingby",
+   "2015": "73",
+   "2016": "73",
+   "accessibility": "0"
+ },
+ {
+   "Mottagning": "Åkermyntan Vårdcentral",
+   "Ort": "Hässelby-Vällingby",
+   "2015": "86",
+   "2016": "82",
+   "accessibility": "-4"
+ },
+ {
+   "Mottagning": "Barkarby vårdcentral",
+   "Ort": "Järfälla",
+   "2015": "82",
+   "2016": "81",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Capio vårdcentral Viksjö",
+   "Ort": "Järfälla",
+   "2015": "88",
+   "2016": "79",
+   "accessibility": "-9"
+ },
+ {
+   "Mottagning": "Jakobsbergs vårdcentral",
+   "Ort": "Järfälla",
+   "2015": "80",
+   "2016": "76",
+   "accessibility": "-4"
+ },
+ {
+   "Mottagning": "Kallhälls nya vårdcentral",
+   "Ort": "Järfälla",
+   "2015": "88",
+   "2016": "81",
+   "accessibility": "-7"
+ },
+ {
+   "Mottagning": "Vibblaby Husläkarmottagning",
+   "Ort": "Järfälla",
+   "2015": "91",
+   "2016": "89",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Vårdcentralen Flottiljen",
+   "Ort": "Järfälla",
+   "2015": "91",
+   "2016": "89",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Capio vårdcentral Kungsholmen",
+   "Ort": "Kungsholmen",
+   "2015": "85",
+   "2016": "83",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Doktor Kom Hem",
+   "Ort": "Kungsholmen",
+   "2015": "86",
+   "2016": "92",
+   "accessibility": "6"
+ },
+ {
+   "Mottagning": "Essinge vårdcentral",
+   "Ort": "Kungsholmen",
+   "2015": "93",
+   "2016": "90",
+   "accessibility": "-3"
+ },
+ {
+   "Mottagning": "Fridhemsplans Vårdcentral",
+   "Ort": "Kungsholmen",
+   "2015": "89",
+   "2016": "81",
+   "accessibility": "-8"
+ },
+ {
+   "Mottagning": "Husläkarmottagningen Stockholms sjukhem",
+   "Ort": "Kungsholmen",
+   "2015": "90",
+   "2016": "85",
+   "accessibility": "-5"
+ },
+ {
+   "Mottagning": "Kungsholmsdoktorn",
+   "Ort": "Kungsholmen",
+   "2015": "90",
+   "2016": "96",
+   "accessibility": "6"
+ },
+ {
+   "Mottagning": "Kvartersakuten Serafen",
+   "Ort": "Kungsholmen",
+   "2015": "89",
+   "2016": "85",
+   "accessibility": "-4"
+ },
+ {
+   "Mottagning": "S:t Eriks vårdcentral",
+   "Ort": "Kungsholmen",
+   "2015": "87",
+   "2016": "82",
+   "accessibility": "-5"
+ },
+ {
+   "Mottagning": "Capio vårdcentral Lidingö",
+   "Ort": "Lidingö",
+   "2015": "86",
+   "2016": "85",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "LidingöDoktorn",
+   "Ort": "Lidingö",
+   "2015": "92",
+   "2016": "86",
+   "accessibility": "-6"
+ },
+ {
+   "Mottagning": "Torsviks vårdcentral",
+   "Ort": "Lidingö",
+   "2015": "90",
+   "2016": "91",
+   "accessibility": "1"
+ },
+ {
+   "Mottagning": "Vården i Centrum",
+   "Ort": "Lidingö",
+   "2015": "93",
+   "2016": "90",
+   "accessibility": "-3"
+ },
+ {
+   "Mottagning": "Boo vårdcentral",
+   "Ort": "Nacka",
+   "2015": "88",
+   "2016": "88",
+   "accessibility": "0"
+ },
+ {
+   "Mottagning": "Doktorteam",
+   "Ort": "Nacka",
+   "2015": "Saknas",
+   "2016": "76",
+   "accessibility": "–"
+ },
+ {
+   "Mottagning": "Ektorps vårdcentral",
+   "Ort": "Nacka",
+   "2015": "85",
+   "2016": "84",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Familjeläkarna i Saltsjöbaden AB",
+   "Ort": "Nacka",
+   "2015": "86",
+   "2016": "87",
+   "accessibility": "1"
+ },
+ {
+   "Mottagning": "Fisksätra vårdcentral",
+   "Ort": "Nacka",
+   "2015": "87",
+   "2016": "76",
+   "accessibility": "-11"
+ },
+ {
+   "Mottagning": "Forums vårdcentral",
+   "Ort": "Nacka",
+   "2015": "82",
+   "2016": "79",
+   "accessibility": "-3"
+ },
+ {
+   "Mottagning": "Helsa vårdcentral Älta",
+   "Ort": "Nacka",
+   "2015": "88",
+   "2016": "80",
+   "accessibility": "-8"
+ },
+ {
+   "Mottagning": "Saltsjöbadens vårdcentral",
+   "Ort": "Nacka",
+   "2015": "92",
+   "2016": "91",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Sickla hälsocenter",
+   "Ort": "Nacka",
+   "2015": "91",
+   "2016": "87",
+   "accessibility": "-4"
+ },
+ {
+   "Mottagning": "Sickla Hälsocenter Danviken",
+   "Ort": "Nacka",
+   "2015": "94",
+   "2016": "89",
+   "accessibility": "-5"
+ },
+ {
+   "Mottagning": "CityAkutens husläkarmottagning",
+   "Ort": "Norrmalm",
+   "2015": "82",
+   "2016": "82",
+   "accessibility": "0"
+ },
+ {
+   "Mottagning": "Familjeläkargruppen Odenplan",
+   "Ort": "Norrmalm",
+   "2015": "90",
+   "2016": "89",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Husläkarmottagningen Johannes",
+   "Ort": "Norrmalm",
+   "2015": "92",
+   "2016": "88",
+   "accessibility": "-4"
+ },
+ {
+   "Mottagning": "Hötorgets Vårdcentral",
+   "Ort": "Norrmalm",
+   "2015": "Saknas",
+   "2016": "86",
+   "accessibility": "–"
+ },
+ {
+   "Mottagning": "Kvartersakuten Matteus",
+   "Ort": "Norrmalm",
+   "2015": "88",
+   "2016": "85",
+   "accessibility": "-3"
+ },
+ {
+   "Mottagning": "Kvartersakuten Surbrunn",
+   "Ort": "Norrmalm",
+   "2015": "87",
+   "2016": "83",
+   "accessibility": "-4"
+ },
+ {
+   "Mottagning": "Kvartersakuten Tegnérgatan",
+   "Ort": "Norrmalm",
+   "2015": "91",
+   "2016": "89",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Blidö vårdcentral",
+   "Ort": "Norrtälje",
+   "2015": "97",
+   "2016": "96",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Rimbo hälso- och vårdcentral",
+   "Ort": "Norrtälje",
+   "2015": "94",
+   "2016": "91",
+   "accessibility": "-3"
+ },
+ {
+   "Mottagning": "Hallstavik vårdcentral",
+   "Ort": "Norrtälje",
+   "2015": "79",
+   "2016": "87",
+   "accessibility": "8"
+ },
+ {
+   "Mottagning": "Lugn och Ro Centrum",
+   "Ort": "Norrtälje",
+   "2015": "86",
+   "2016": "87",
+   "accessibility": "1"
+ },
+ {
+   "Mottagning": "Husläkarna Rimbo-Edsbro",
+   "Ort": "Norrtälje",
+   "2015": "78",
+   "2016": "83",
+   "accessibility": "5"
+ },
+ {
+   "Mottagning": "Väddö vårdcentral",
+   "Ort": "Norrtälje",
+   "2015": "91",
+   "2016": "80",
+   "accessibility": "-11"
+ },
+ {
+   "Mottagning": "Norrtälje Södra",
+   "Ort": "Norrtälje",
+   "2015": "87",
+   "2016": "79",
+   "accessibility": "-8"
+ },
+ {
+   "Mottagning": "Norrtälje Norra",
+   "Ort": "Norrtälje",
+   "2015": "80",
+   "2016": "78",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Bergshamra vårdcentral",
+   "Ort": "Norrtälje",
+   "2015": "89",
+   "2016": "76",
+   "accessibility": "-13"
+ },
+ {
+   "Mottagning": "Husläkarmottagning Bryggargatan",
+   "Ort": "Nynäshamn",
+   "2015": "88",
+   "2016": "86",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Nynäshamns Vårdcentral",
+   "Ort": "Nynäshamn",
+   "2015": "84",
+   "2016": "79",
+   "accessibility": "-5"
+ },
+ {
+   "Mottagning": "Ösmo Vårdcentral (+Sorunda)",
+   "Ort": "Nynäshamn",
+   "2015": "88",
+   "2016": "88",
+   "accessibility": "0"
+ },
+ {
+   "Mottagning": "Nynäsakuten",
+   "Ort": "Nynäshamn",
+   "2015": "85",
+   "2016": "Saknas",
+   "accessibility": "–"
+ },
+ {
+   "Mottagning": "Aleris vårdcentral Järva",
+   "Ort": "Rinkeby-Kista",
+   "2015": "78",
+   "2016": "76",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Familjeläkarna i Husby",
+   "Ort": "Rinkeby-Kista",
+   "2015": "77",
+   "2016": "75",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Husby Akalla vårdcentral",
+   "Ort": "Rinkeby-Kista",
+   "2015": "78",
+   "2016": "83",
+   "accessibility": "5"
+ },
+ {
+   "Mottagning": "Kista vårdcentral",
+   "Ort": "Rinkeby-Kista",
+   "2015": "79",
+   "2016": "79",
+   "accessibility": "0"
+ },
+ {
+   "Mottagning": "Riddarens vårdcentral",
+   "Ort": "Rinkeby-Kista",
+   "2015": "93",
+   "2016": "89",
+   "accessibility": "-4"
+ },
+ {
+   "Mottagning": "Rinkeby vårdcentral",
+   "Ort": "Rinkeby-Kista",
+   "2015": "61",
+   "2016": "77",
+   "accessibility": "16"
+ },
+ {
+   "Mottagning": "Tibra Medica husläkarmottagning",
+   "Ort": "Rinkeby-Kista",
+   "2015": "81",
+   "2016": "75",
+   "accessibility": "-6"
+ },
+ {
+   "Mottagning": "Arkadens läkarmottagning",
+   "Ort": "Sigtuna",
+   "2015": "89",
+   "2016": "88",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Din Doktor Märsta",
+   "Ort": "Sigtuna",
+   "2015": "90",
+   "2016": "85",
+   "accessibility": "-5"
+ },
+ {
+   "Mottagning": "Märsta läkarhus",
+   "Ort": "Sigtuna",
+   "2015": "76",
+   "2016": "78",
+   "accessibility": "2"
+ },
+ {
+   "Mottagning": "Märsta Närvård",
+   "Ort": "Sigtuna",
+   "2015": "81",
+   "2016": "86",
+   "accessibility": "5"
+ },
+ {
+   "Mottagning": "Sigtuna läkarhus",
+   "Ort": "Sigtuna",
+   "2015": "78",
+   "2016": "77",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Sigtuna vårdcentral",
+   "Ort": "Sigtuna",
+   "2015": "81",
+   "2016": "83",
+   "accessibility": "2"
+ },
+ {
+   "Mottagning": "Valsta vårdcentral",
+   "Ort": "Sigtuna",
+   "2015": "70",
+   "2016": "73",
+   "accessibility": "3"
+ },
+ {
+   "Mottagning": "Airport Sky Vårdcentral",
+   "Ort": "Sigtuna",
+   "2015": "97",
+   "2016": "94",
+   "accessibility": "-3"
+ },
+ {
+   "Mottagning": "Aleris Vårdcentral Björkhagen",
+   "Ort": "Skarpnäck",
+   "2015": "78",
+   "2016": "72",
+   "accessibility": "-6"
+ },
+ {
+   "Mottagning": "Din vårdcentral Bagarmossen",
+   "Ort": "Skarpnäck",
+   "2015": "78",
+   "2016": "70",
+   "accessibility": "-8"
+ },
+ {
+   "Mottagning": "Vårdcentralen i Skarpnäck",
+   "Ort": "Skarpnäck",
+   "2015": "83",
+   "2016": "88",
+   "accessibility": "5"
+ },
+ {
+   "Mottagning": "Bredängs vårdcentral",
+   "Ort": "Skärholmen",
+   "2015": "79",
+   "2016": "74",
+   "accessibility": "-5"
+ },
+ {
+   "Mottagning": "Capio vårdcentral Vårberg",
+   "Ort": "Skärholmen",
+   "2015": "Saknas",
+   "2016": "80",
+   "accessibility": "–"
+ },
+ {
+   "Mottagning": "Skärholmens vårdcentral",
+   "Ort": "Skärholmen",
+   "2015": "76",
+   "2016": "71",
+   "accessibility": "-5"
+ },
+ {
+   "Mottagning": "Sätra vårdcentral",
+   "Ort": "Skärholmen",
+   "2015": "90",
+   "2016": "89",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Vårbergs vårdcentral",
+   "Ort": "Skärholmen",
+   "2015": "Saknas",
+   "2016": "72",
+   "accessibility": "–"
+ },
+ {
+   "Mottagning": "Attundahälsan Familjeläkare",
+   "Ort": "Sollentuna",
+   "2015": "91",
+   "2016": "82",
+   "accessibility": "-9"
+ },
+ {
+   "Mottagning": "Edsbergs vårdcentral",
+   "Ort": "Sollentuna",
+   "2015": "86",
+   "2016": "83",
+   "accessibility": "-3"
+ },
+ {
+   "Mottagning": "Fem Husläkare",
+   "Ort": "Sollentuna",
+   "2015": "84",
+   "2016": "85",
+   "accessibility": "1"
+ },
+ {
+   "Mottagning": "Lundens Husläkarmottagning",
+   "Ort": "Sollentuna",
+   "2015": "89",
+   "2016": "95",
+   "accessibility": "6"
+ },
+ {
+   "Mottagning": "Norrvikens vårdcentral",
+   "Ort": "Sollentuna",
+   "2015": "91",
+   "2016": "85",
+   "accessibility": "-6"
+ },
+ {
+   "Mottagning": "Rotebro vårdcentral",
+   "Ort": "Sollentuna",
+   "2015": "87",
+   "2016": "84",
+   "accessibility": "-3"
+ },
+ {
+   "Mottagning": "Turebergs vårdcentral",
+   "Ort": "Sollentuna",
+   "2015": "84",
+   "2016": "77",
+   "accessibility": "-7"
+ },
+ {
+   "Mottagning": "Bergshamra Ulriksdals vårdcentral",
+   "Ort": "Solna",
+   "2015": "81",
+   "2016": "80",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Capio Vårdcentral Solna",
+   "Ort": "Solna",
+   "2015": "84",
+   "2016": "76",
+   "accessibility": "-8"
+ },
+ {
+   "Mottagning": "Hagalund Frösunda Vårdcentral",
+   "Ort": "Solna",
+   "2015": "76",
+   "2016": "78",
+   "accessibility": "2"
+ },
+ {
+   "Mottagning": "Huvudsta vårdcentral",
+   "Ort": "Solna",
+   "2015": "82",
+   "2016": "81",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Råsunda vårdcentral",
+   "Ort": "Solna",
+   "2015": "85",
+   "2016": "85",
+   "accessibility": "0"
+ },
+ {
+   "Mottagning": "Solna Centrum Vårdcentral",
+   "Ort": "Solna",
+   "2015": "72",
+   "2016": "60",
+   "accessibility": "-12"
+ },
+ {
+   "Mottagning": "To Care Husläkarmottagning Solna Sundbyberg",
+   "Ort": "Solna",
+   "2015": "86",
+   "2016": "78",
+   "accessibility": "-8"
+ },
+ {
+   "Mottagning": "Vårdcentralen Solnas Hjärta   ",
+   "Ort": "Solna",
+   "2015": "94",
+   "2016": "93",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Arenastadens vårdcentral",
+   "Ort": "Solna",
+   "2015": "Saknas",
+   "2016": "93",
+   "accessibility": "–"
+ },
+ {
+   "Mottagning": "Hälsans vårdcentral Tensta",
+   "Ort": "Spånga-Tensta",
+   "2015": "Saknas",
+   "2016": "Saknas",
+   "accessibility": "–"
+ },
+ {
+   "Mottagning": "Spånga vårdcentral",
+   "Ort": "Spånga-Tensta",
+   "2015": "88",
+   "2016": "82",
+   "accessibility": "-6"
+ },
+ {
+   "Mottagning": "Tensta vårdcentral",
+   "Ort": "Spånga-Tensta",
+   "2015": "75",
+   "2016": "71",
+   "accessibility": "-4"
+ },
+ {
+   "Mottagning": "Hallonbergens vårdcentral",
+   "Ort": "Sundbyberg",
+   "2015": "88",
+   "2016": "78",
+   "accessibility": "-10"
+ },
+ {
+   "Mottagning": "Helsa vårdcentral Sundbyberg",
+   "Ort": "Sundbyberg",
+   "2015": "76",
+   "2016": "65",
+   "accessibility": "-11"
+ },
+ {
+   "Mottagning": "Rissne vårdcentral",
+   "Ort": "Sundbyberg",
+   "2015": "82",
+   "2016": "75",
+   "accessibility": "-7"
+ },
+ {
+   "Mottagning": "Capio vårdcentral Ringen",
+   "Ort": "Södermalm",
+   "2015": "84",
+   "2016": "80",
+   "accessibility": "-4"
+ },
+ {
+   "Mottagning": "Capio vårdcentral Slussen",
+   "Ort": "Södermalm",
+   "2015": "86",
+   "2016": "85",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Capio vårdcentral Södermalm",
+   "Ort": "Södermalm",
+   "2015": "76",
+   "2016": "68",
+   "accessibility": "-8"
+ },
+ {
+   "Mottagning": "Hammarby Sjöstads Husläkare",
+   "Ort": "Södermalm",
+   "2015": "89",
+   "2016": "88",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Helsa vårdcentral Hornstull",
+   "Ort": "Södermalm",
+   "2015": "86",
+   "2016": "81",
+   "accessibility": "-5"
+ },
+ {
+   "Mottagning": "Mottagningen Sjöstaden",
+   "Ort": "Södermalm",
+   "2015": "89",
+   "2016": "91",
+   "accessibility": "2"
+ },
+ {
+   "Mottagning": "Rosenlunds vårdcentral",
+   "Ort": "Södermalm",
+   "2015": "84",
+   "2016": "80",
+   "accessibility": "-4"
+ },
+ {
+   "Mottagning": "Sjöstadsdoktorn",
+   "Ort": "Södermalm",
+   "2015": "94",
+   "2016": "84",
+   "accessibility": "-10"
+ },
+ {
+   "Mottagning": "Söderdoktorn",
+   "Ort": "Södermalm",
+   "2015": "83",
+   "2016": "81",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Åsö vårdcentral",
+   "Ort": "Södermalm",
+   "2015": "85",
+   "2016": "83",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Aleris vårdcentral Järna",
+   "Ort": "Södertälje",
+   "2015": "83",
+   "2016": "83",
+   "accessibility": "0"
+ },
+ {
+   "Mottagning": "Aleris vårdcentral Nykvarn",
+   "Ort": "Nykvarn",
+   "2015": "86",
+   "2016": "91",
+   "accessibility": "5"
+ },
+ {
+   "Mottagning": "Capio vårdcentral Lina Hage",
+   "Ort": "Södertälje",
+   "2015": "85",
+   "2016": "90",
+   "accessibility": "5"
+ },
+ {
+   "Mottagning": "Capio vårdcentral Wasa",
+   "Ort": "Södertälje",
+   "2015": "82",
+   "2016": "84",
+   "accessibility": "2"
+ },
+ {
+   "Mottagning": "Fornhöjdens Vårdcentrum",
+   "Ort": "Södertälje",
+   "2015": "88",
+   "2016": "86",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Kringlans Vårdcentrum",
+   "Ort": "Södertälje",
+   "2015": "88",
+   "2016": "87",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Luna vårdcentral",
+   "Ort": "Södertälje",
+   "2015": "77",
+   "2016": "74",
+   "accessibility": "-3"
+ },
+ {
+   "Mottagning": "Ronna Vårdcentral",
+   "Ort": "Södertälje",
+   "2015": "89",
+   "2016": "82",
+   "accessibility": "-7"
+ },
+ {
+   "Mottagning": "Scania Hälsocenter",
+   "Ort": "Södertälje",
+   "2015": "92",
+   "2016": "82",
+   "accessibility": "-10"
+ },
+ {
+   "Mottagning": "Tallhöjdens vårdcentral",
+   "Ort": "Södertälje",
+   "2015": "75",
+   "2016": "78",
+   "accessibility": "3"
+ },
+ {
+   "Mottagning": "Telgeakuten",
+   "Ort": "Södertälje",
+   "2015": "90",
+   "2016": "88",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Tveta hälsocentral",
+   "Ort": "Södertälje",
+   "2015": "86",
+   "2016": "79",
+   "accessibility": "-7"
+ },
+ {
+   "Mottagning": "Vidar vårdcentral",
+   "Ort": "Södertälje",
+   "2015": "92",
+   "2016": "90",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Vårdcentralen Badhotellet",
+   "Ort": "Södertälje",
+   "2015": "90",
+   "2016": "90",
+   "accessibility": "0"
+ },
+ {
+   "Mottagning": "Aleris vårdcentral Tyresö",
+   "Ort": "Tyresö",
+   "2015": "64",
+   "2016": "50",
+   "accessibility": "-14"
+ },
+ {
+   "Mottagning": "Bollmora vårdcentral",
+   "Ort": "Tyresö",
+   "2015": "65",
+   "2016": "63",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Trollbäckens vårdcentral",
+   "Ort": "Tyresö",
+   "2015": "89",
+   "2016": "88",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Aleris husläkarmottagningen Täby Centrum",
+   "Ort": "Täby",
+   "2015": "78",
+   "2016": "82",
+   "accessibility": "4"
+ },
+ {
+   "Mottagning": "Aleris husläkarmottagning Näsby Park",
+   "Ort": "Täby",
+   "2015": "86",
+   "2016": "88",
+   "accessibility": "2"
+ },
+ {
+   "Mottagning": "Roslags Näsby Husläkarmottagning",
+   "Ort": "Täby",
+   "2015": "Saknas",
+   "2016": "93",
+   "accessibility": "–"
+ },
+ {
+   "Mottagning": "Täby Centrum Doktorn",
+   "Ort": "Täby",
+   "2015": "89",
+   "2016": "88",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Täby Kyrkby husläkarmottagning",
+   "Ort": "Täby",
+   "2015": "91",
+   "2016": "87",
+   "accessibility": "-4"
+ },
+ {
+   "Mottagning": "Täby vårdcentral",
+   "Ort": "Täby",
+   "2015": "88",
+   "2016": "85",
+   "accessibility": "-3"
+ },
+ {
+   "Mottagning": "Aleris Vallatorpsdoktorn",
+   "Ort": "Täby",
+   "2015": "85",
+   "2016": "84",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Capio Vårdcentral Bro ",
+   "Ort": "Upplands Bro",
+   "2015": "68",
+   "2016": "62",
+   "accessibility": "-6"
+ },
+ {
+   "Mottagning": "Kungsängens vårdcentral",
+   "Ort": "Upplands Bro",
+   "2015": "77",
+   "2016": "72",
+   "accessibility": "-5"
+ },
+ {
+   "Mottagning": "Capio vårdcentral Väsby",
+   "Ort": "Upplands Väsby",
+   "2015": "73",
+   "2016": "73",
+   "accessibility": "0"
+ },
+ {
+   "Mottagning": "Runby vårdcentral",
+   "Ort": "Upplands Väsby",
+   "2015": "80",
+   "2016": "81",
+   "accessibility": "1"
+ },
+ {
+   "Mottagning": "Veritas vårdcentral Väsby",
+   "Ort": "Upplands Väsby",
+   "2015": "82",
+   "2016": "81",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Väsby Läkargrupp Husläkarmottagning",
+   "Ort": "Upplands Väsby",
+   "2015": "90",
+   "2016": "85",
+   "accessibility": "-5"
+ },
+ {
+   "Mottagning": "Östra vårdcentralen",
+   "Ort": "Upplands Väsby",
+   "2015": "87",
+   "2016": "81",
+   "accessibility": "-6"
+ },
+ {
+   "Mottagning": "Helsa Vårdcentral Vallentuna",
+   "Ort": "Vallentuna",
+   "2015": "85",
+   "2016": "78",
+   "accessibility": "-7"
+ },
+ {
+   "Mottagning": "Husläkarmottagningen Korallen",
+   "Ort": "Vallentuna",
+   "2015": "87",
+   "2016": "85",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Vallentuna Husläkargrupp",
+   "Ort": "Vallentuna",
+   "2015": "85",
+   "2016": "83",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Djurö vårdcentral (+Värmdö skärgård)",
+   "Ort": "Värmdö",
+   "2015": "93",
+   "2016": "92",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Gustavsbergs vårdcentral",
+   "Ort": "Värmdö",
+   "2015": "88",
+   "2016": "86",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Värmdö vårdcentral",
+   "Ort": "Värmdö",
+   "2015": "89",
+   "2016": "89",
+   "accessibility": "0"
+ },
+ {
+   "Mottagning": "Lisebergs vårdcentral",
+   "Ort": "Älvsjö",
+   "2015": "90",
+   "2016": "88",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Älvsjö vårdcentral",
+   "Ort": "Älvsjö",
+   "2015": "80",
+   "2016": "80",
+   "accessibility": "0"
+ },
+ {
+   "Mottagning": "Aleris vårdcentral Stureplan",
+   "Ort": "Östermalm",
+   "2015": "88",
+   "2016": "90",
+   "accessibility": "2"
+ },
+ {
+   "Mottagning": "Banérgatans Husläkarmottagning",
+   "Ort": "Östermalm",
+   "2015": "94",
+   "2016": "84",
+   "accessibility": "-10"
+ },
+ {
+   "Mottagning": "Capio vårdcentral Östermalm",
+   "Ort": "Östermalm",
+   "2015": "77",
+   "2016": "84",
+   "accessibility": "7"
+ },
+ {
+   "Mottagning": "Gärdets vårdcentral",
+   "Ort": "Östermalm",
+   "2015": "84",
+   "2016": "80",
+   "accessibility": "-4"
+ },
+ {
+   "Mottagning": "Husläkarmottagningen Sophiahemmet",
+   "Ort": "Östermalm",
+   "2015": "82",
+   "2016": "81",
+   "accessibility": "-1"
+ },
+ {
+   "Mottagning": "Lill-Jans husläkarmottagning",
+   "Ort": "Östermalm",
+   "2015": "90",
+   "2016": "91",
+   "accessibility": "1"
+ },
+ {
+   "Mottagning": "Sibyllekliniken Husläkarmottagning",
+   "Ort": "Östermalm",
+   "2015": "82",
+   "2016": "83",
+   "accessibility": "1"
+ },
+ {
+   "Mottagning": "To Care Husläkarmottagning",
+   "Ort": "Östermalm",
+   "2015": "86",
+   "2016": "84",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Husläkarna i Margretelund",
+   "Ort": "Österåker",
+   "2015": "86",
+   "2016": "86",
+   "accessibility": "0"
+ },
+ {
+   "Mottagning": "Husläkarna i Österåker",
+   "Ort": "Österåker",
+   "2015": "86",
+   "2016": "84",
+   "accessibility": "-2"
+ },
+ {
+   "Mottagning": "Vaxholms vårdcentral",
+   "Ort": "Vaxholm",
+   "2015": "78",
+   "2016": "73",
+   "accessibility": "-5"
+ },
+ {
+   "Mottagning": "Österåkersdoktorn",
+   "Ort": "Österåker",
+   "2015": "80",
+   "2016": "71",
+   "accessibility": "-9"
+ }
+]
