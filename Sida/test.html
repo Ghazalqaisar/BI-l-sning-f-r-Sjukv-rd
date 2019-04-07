@@ -5,88 +5,75 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-      </head>
-      <body>
+        </head>
+        <body>
             <script type="text/javascript" src="goodbad.js">   </script>
             <script type="text/javascript" src="Reviews.js">   </script>
+       
+       
+        <h1>Accessibility of all Health care centres in Stockholm</h1>    
         <div id="graph"></div>
 
-        <h1>bar chart</h1>
-        
+        <h1>Comparison of accessibility of all Health care centres in Stockholm</h1>
         <div id="myDiv"></div>
         
-        <h1>Reviews chart</h1>
-       
+        <h1>Reviews of Stockholm's population about health care centres</h1>
         <div id="mychart"></div>
         
-        <script>
-var Mottagning = []; // en lista skapas
+        <!-- JavaScript -->
+<script>
+  var Mottagning = []; // en lista skapas
+  var Ort= []; // en lista skapas
+  var year15 = []; // en lista skapas
+  var year16 = []; // en lista skapas
+  var accessibility= []; // en lista skapas
+  
   for (i = 0; i < vard.length; i++) {
     Mottagning.push(vard[i].Mottagning)
-  }; 
-  var Ort= []; // en lista skapas
-  for (i = 0; i < vard.length; i++) {
+
     Ort.push(vard[i].Ort)
-  };
-  var year15 = []; // en lista skapas
-  for (i = 0; i < vard.length; i++) {
+ 
     year15.push(vard[i].year15)
-  }; 
-  var year16 = []; // en lista skapas
-  for (i = 0; i < vard.length; i++) {
+ 
     year16.push(vard[i].year16)
-  }; 
-  var accessibility= []; // en lista skapas
-  for (i = 0; i < vard.length; i++) {
+  
     accessibility.push(vard[i].accessibility)
   }; 
         </script>
 
-        <script>
-var Municipality= []; // en lista skapas
+         <script>
+
+var Municipality = []; // en lista skapas
+var ENSEMBLE= []; // en lista skapas
+var Emotional_support= []; // en lista skapas
+var Participation= []; // en lista skapas
+var Respect= []; // en lista skapas
+var Coordination= []; // en lista skapas
+var Knowledge= []; // en lista skapas
+var Availability= []; // en lista skapas
+
   for (i = 0; i < Reviews.length; i++) {
     Municipality.push(Reviews[i].Municipality)
-  }; 
-
-  var ENSEMBLE= []; // en lista skapas
-  for (i = 0; i < Reviews.length; i++) {
+ 
     ENSEMBLE.push(Reviews[i].ENSEMBLE)
-  };
-  
-  var Emotional_support= []; // en lista skapas
-  for (i = 0; i < Reviews.length; i++) {
+ 
     Emotional_support.push(Reviews[i].Emotional_support)
-  };
   
-  var Participation= []; // en lista skapas
-  for (i = 0; i < Reviews.length; i++) {
     Participation.push(Reviews[i].Participation)
-  };
-
-  var Respect= []; // en lista skapas
-  for (i = 0; i < Reviews.length; i++) {
+ 
     Respect.push(Reviews[i].Respect)
-  };
-
-  var Coordination= []; // en lista skapas
-  for (i = 0; i < Reviews.length; i++) {
+ 
     Coordination.push(Reviews[i].Coordination)
-  };
 
-  var Knowledge= []; // en lista skapas
-  for (i = 0; i < Reviews.length; i++) {
     Knowledge.push(Reviews[i].Knowledge)
-  };
-  
-  var Availability= []; // en lista skapas
-  for (i = 0; i < Reviews.length; i++) {
+ 
     Availability.push(Reviews[i].Availability)
   };
      
      </script>
-        <script>
-        
-        
+     
+<!-- Graph Script-->
+<script>
 var trace1 = {
   x: Mottagning,
   y: accessibility,
@@ -96,34 +83,36 @@ var trace1 = {
 
 var data = [trace1];
 var layout = { 
-  title: 'Accessibility'
+title: 'Accessibility'
 };
 
 var config = {
-  modeBarButtons: [[{
-    name: 'stack',
-    click: function(gd) {
+      modeBarButtons: [[{
+      name: 'stack',
+      click: function(gd) {
       Plotly.relayout(gd, 'barmode', 'stack');
     }
-  }, {
+  }, 
+  {
     name: 'overlay',
     click: function(gd) {
-      Plotly.relayout(gd, 'barmode', 'overlay');
+    Plotly.relayout(gd, 'barmode', 'overlay');
     }
-  }, {
+  }, 
+  {
     name: 'group',
     click: function(gd) {
-      Plotly.relayout(gd, 'barmode', 'group');
+    Plotly.relayout(gd, 'barmode', 'group');
     }, 
   }, {
     name: 'relative',
     click: function(gd) {
-      Plotly.relayout(gd, 'barmode', 'relative');
+    Plotly.relayout(gd, 'barmode', 'relative');
     }, 
   }].reverse()]
 }
 
-Plotly.newPlot('graph', data, layout, config);
+    Plotly.newPlot('graph', data, layout, config);
         </script>
 
 
@@ -138,7 +127,7 @@ x: Mottagning,
   type: 'scatter'
 };
 var trace5 = {
-   x: Mottagning, 
+  x: Mottagning, 
   y: year15, 
   mode: 'lines+markers', 
   name: 'Year 2015', 
@@ -147,7 +136,7 @@ var trace5 = {
 };
 
 var trace6 = {
-    x: Mottagning,
+  x: Mottagning,
   y: year16, 
   mode: 'lines+markers', 
   name: 'Year 2016', 
@@ -157,25 +146,21 @@ var trace6 = {
 
 var data = [trace5, trace6, trace4];
 
-var layout = {legend: {
+ var layout = {legend: {
     y: 0.5, 
     traceorder: 'reversed', 
     font: {size: 16}, 
     yref: 'paper'
 },
-Xaxis: {
-  
-  title: 'Mottagning'
-},
-yaxis: {title: 'Years'}};
+  Xaxis: {title: 'Mottagning'},
+  yaxis: {title: 'Years'}};
 
-
-Plotly.newPlot('myDiv', data, layout, {showSendToCloud: true});
+  Plotly.newPlot('myDiv', data, layout, {showSendToCloud: true});
 </script>
 
 <script>
 var trace7 = {
-x: Municipality, 
+  x: Municipality, 
   y: ENSEMBLE,
   mode: 'lines+markers',
   name: 'ENSEMBLE',
@@ -183,7 +168,7 @@ x: Municipality,
   type: 'scatter'
 };
 var trace8 = {
-   x: Municipality , 
+  x: Municipality , 
   y: Emotional_support, 
   mode: 'lines+markers', 
   name: 'Emotional_support', 
@@ -192,7 +177,7 @@ var trace8 = {
 };
 
 var trace9 = {
-    x: Municipality,
+  x: Municipality,
   y: Participation, 
   mode: 'lines+markers', 
   name: 'Participation', 
@@ -201,7 +186,7 @@ var trace9 = {
 };
 
 var trace10 = {
-x: Municipality, 
+  x: Municipality, 
   y: Respect,
   mode: 'lines+markers',
   name: 'Respect',
@@ -209,7 +194,7 @@ x: Municipality,
   type: 'scatter'
 };
 var trace11 = {
-   x: Municipality , 
+  x: Municipality , 
   y: Coordination, 
   mode: 'lines+markers', 
   name: 'Coordination', 
@@ -218,7 +203,7 @@ var trace11 = {
 };
 
 var trace12 = {
-    x: Municipality,
+  x: Municipality,
   y: Knowledge, 
   mode: 'lines+markers', 
   name: 'Knowledge', 
@@ -227,7 +212,7 @@ var trace12 = {
 };
 
 var trace13 = {
-    x: Municipality,
+  x: Municipality,
   y: Availability, 
   mode: 'lines+markers', 
   name: 'Availability', 
@@ -252,13 +237,13 @@ Xaxis: {
     showticklabels: false,
      title: 'Municipalities of Stockholm'
   },
-yaxis: {
+  yaxis: {
     range: [40, 90],
     title: 'Reviews in percent'
   }
 };
 
-Plotly.newPlot('mychart', myreview, layout, {showSendToCloud: true});
+    Plotly.newPlot('mychart', myreview, layout, {showSendToCloud: true});
 </script>
 
     
