@@ -48,7 +48,7 @@
         </div>
 
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
+            <span class="sr-only"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -86,17 +86,17 @@
                         <a href="#" class="active"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                     </li>
 					 <li>
-                        <a href="https://1drv.ms/p/s!AsGeNz1bC2WNnxY0vzbf2TaReAwE" class="active"><i class="fa fa-product-hunt"></i> Presentation</a>
+                        <a href="https://1drv.ms/p/s!AsGeNz1bC2WNoVtWBHQza32a09ro" class="active"><i class="fa fa-product-hunt"></i> Presentation</a>
                     </li>
 					               
 							 <li>
                                 <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level">
                                     <li>
-                                        <a href="flot.html">Ghazal</a>   <!-- Här ni kan skriva era länk till linkedin  -->
+                                        <a href="#">Ghazal</a>   <!-- Här ni kan skriva era länk till linkedin  -->
                                     </li>
                                     <li>
-                                        <a href="morris.html">Kalapna</a>	<!-- Här ni kan skriva era länk till linkedin  -->
+                                        <a href="#">Kalapna</a>	<!-- Här ni kan skriva era länk till linkedin  -->
                                     </li>
 									<li>
                                         <a href="https://www.linkedin.com/in/cecilijka/">Cecilia</a>
@@ -283,44 +283,46 @@
                                 </div>
                                 <!-- /.panel-body -->
                             </div>
-           
-                       
-                           
+						
                         </div>
 						
 						<div class="row">
                         <!-- /.col-lg -->
                   <div class="col-lg-4">
 						<div class="panel panel-default">
-							  <!-- Här du kan klistra koden till javascript graf -->
+							  <!-- Cecilia-->
                            
                                 <div class="panel-heading">
-                                    <i class="fa fa-bar-chart-o fa-fw"></i> 8 kommuner med största befolkning 
+                                    <i class="fa fa-bar-chart-o fa-fw"></i> 8 kommuner med största befolkning (Stockhol län)
                                 </div>
                                 <div class="panel-body">
-                                    <div id="morris-donut-chart"><div id="bästavämtetid" style="height: 300px;"></div></div>
+                                    <div id="morris-donut-chart"><div id="bästaväntetid" style="height: 300px;"></div></div>
                                     <a href="https://www.vilkenstorlek.se/geografi/sveriges-storsta-kommuner/" class="btn btn-default btn-block">Mer</a>
                                 </div>
                                 <!-- /.panel-body -->
                            
 						</div>
-						
-						
-						
-							<div class="panel panel-default">
-							  <!-- Här du kan klistra koden till javascript graf morris då använd den "div morris char" annars ta bort den div   -->
+						</div>	
+							
+				 <div class="col-lg-4">
+						<div class="panel panel-default">
+							  <!-- Kalapna -->
                            
                                 <div class="panel-heading">
-                                    <i class="fa fa-pie-chart-o fa-fw"></i> nåt
+                                    <i class="fa fa-bar-chart-o fa-fw"></i> Vårdcentraler 
                                 </div>
                                 <div class="panel-body">
-                                    <div id="morris-donut-chart"></div></div>
-                                    <a href="#" class="btn btn-default btn-block">Mer</a>
+                                    <div id="morris-donut-chart"><div id="vårdcentral"></div></div>
+                                    <a href="https://skl.se/download/18.5f1f8c911586c4c4eb9219/1479288950176/skl-beslutslage-LOV-landsting-oktober-2016.pdf" class="btn btn-default btn-block">Mer</a>
                                 </div>
                                 <!-- /.panel-body -->
                            
+						</div>
 						</div>	
+						
+						
 			    </div>
+				
 				</div>
 			</div>
 		</div>
@@ -348,7 +350,7 @@
 type = "text/javascript">
 new Morris.Bar({
   // ID of the element in which to draw the chart.
-  element: 'bästavämtetid',
+  element: 'bästaväntetid',
   // Chart data records -- each entry in this array corresponds to a point on
   // the chart.
   data: [
@@ -368,6 +370,55 @@ new Morris.Bar({
   // Labels for the ykeys -- will be displayed when you hover over the
   // chart.
   labels: ['värde'],
+  resize: true
+});
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+<script
+type = "text/javascript">
+new Morris.Bar({
+  // ID of the element in which to draw the chart.
+  element: 'vårdcentral',
+  // Chart data records -- each entry in this array corresponds to a point on
+  // the chart.
+  data: [
+     { stad: 'Stockholm', vårdcentral: 68 },
+    { stad: 'Södertälje', vårdcentral: 12 },
+    { stad: 'Solna', vårdcentral: 10 },
+    { stad: 'Järfälla', vårdcentral: 6 },
+    { stad: 'Nacka', vårdcentral: 9 },
+	{ stad: 'Haninge', vårdcentral: 8 },
+	{ stad: 'Botkyrka', vårdcentral: 7 },
+    { stad: 'Huddinge', vårdcentral: 6 },
+    { stad: 'Sigtuna', vårdcentral: 8 },
+	{ stad: 'Vaxholm', vårdcentral: 1 },
+	{ stad: 'Österåker', vårdcentral: 3 },
+    { stad: 'Nortälje', vårdcentral: 3 },
+    { stad: 'Nynäshamn', vårdcentral: 4 },
+	{ stad: 'Vallentuna', vårdcentral: 3 },
+	{ stad: 'Sollentuna', vårdcentral: 5 },
+    { stad: 'Upplands Väsby', vårdcentral: 3 },
+    { stad: 'Upplands-bro', vårdcentral: 2 },
+	{ stad: 'Sundbyberg', vårdcentral: 4 },
+	{ stad: 'Ekerö', vårdcentral: 2 },
+    { stad: 'Lindingö', vårdcentral: 2 },
+    { stad: 'Nykvarn', vårdcentral: 1 },
+	{ stad: 'Danderyd', vårdcentral: 3 },
+	{ stad: 'Salem', vårdcentral: 1 },
+    { stad: 'Tyresö', vårdcentral: 3 },
+    { stad: 'Täby', vårdcentral: 5 },
+    { stad: 'Värmdö', vårdcentral: 3 }
+  ],
+  // The name of the data record attribute that contains x-values.
+  xkey: 'stad',
+  // A list of names of data record attributes that contain y-values.
+  ykeys: ['vårdcentral'],
+  // Labels for the ykeys -- will be displayed when you hover over the
+  // chart.
+  labels: ['vårdcentral'],
   resize: true
 });
 </script>
