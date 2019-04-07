@@ -1,33 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<<head>
+<head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="stylesheet" href="myStyle.css">
         <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
         </head>
         <body>
+
+          // load the data from JS file
             <script type="text/javascript" src="goodbad.js">   </script>
             <script type="text/javascript" src="Reviews.js">   </script>
        
-       
+      <div class="chart-container">
+          // graph 1   
         <h1>Accessibility of all Health care centres in Stockholm</h1>    
         <div id="graph"></div>
-
+      <br>
+      <br>
+      // graph 2   
         <h1>Comparison of accessibility of all Health care centres in Stockholm</h1>
         <div id="myDiv"></div>
-        
+    <br>
+    <br>
+    // graph 3
         <h1>Reviews of Stockholm's population about health care centres</h1>
         <div id="mychart"></div>
+      </div>
         
-        <!-- JavaScript -->
+        <!-- JavaScript for data-->
 <script>
-  var Mottagning = []; // en lista skapas
-  var Ort= []; // en lista skapas
-  var year15 = []; // en lista skapas
-  var year16 = []; // en lista skapas
-  var accessibility= []; // en lista skapas
+  // Initialize the variables
+  var Mottagning = []; 
+  var Ort= []; 
+  var year15 = []; 
+  var year16 = []; 
+  var accessibility= []; 
   
+  // loop over all variables
   for (i = 0; i < vard.length; i++) {
     Mottagning.push(vard[i].Mottagning)
 
@@ -41,17 +53,18 @@
   }; 
         </script>
 
-         <script>
+<script>
+// Initialize the variables for second data
+var Municipality = []; 
+var ENSEMBLE= []; 
+var Emotional_support= []; 
+var Participation= []; 
+var Respect= []; 
+var Coordination= []; 
+var Knowledge= []; 
+var Availability= []; 
 
-var Municipality = []; // en lista skapas
-var ENSEMBLE= []; // en lista skapas
-var Emotional_support= []; // en lista skapas
-var Participation= []; // en lista skapas
-var Respect= []; // en lista skapas
-var Coordination= []; // en lista skapas
-var Knowledge= []; // en lista skapas
-var Availability= []; // en lista skapas
-
+// loop over variables for second data
   for (i = 0; i < Reviews.length; i++) {
     Municipality.push(Reviews[i].Municipality)
  
@@ -72,7 +85,7 @@ var Availability= []; // en lista skapas
      
      </script>
      
-<!-- Graph Script-->
+<!-- Script for Graph 1-->
 <script>
 var trace1 = {
   x: Mottagning,
@@ -82,8 +95,16 @@ var trace1 = {
 };
 
 var data = [trace1];
-var layout = { 
-title: 'Accessibility'
+
+var layout_access1 = {
+  title: 'Accessibility',
+  xaxis: {
+    title: 'Mottagning',
+    tickangle: 45
+  },
+  yaxis: {
+    title: 'Accessibility in Percent'
+  }
 };
 
 var config = {
@@ -112,12 +133,13 @@ var config = {
   }].reverse()]
 }
 
-    Plotly.newPlot('graph', data, layout, config);
-        </script>
+    Plotly.newPlot('graph', data, layout_access1, config);
+
+</script>
 
 
 <script>
-
+// script for Graph 2
 var trace4 = {
 x: Mottagning, 
   y: accessibility,
@@ -146,16 +168,18 @@ var trace6 = {
 
 var data = [trace5, trace6, trace4];
 
- var layout = {legend: {
-    y: 0.5, 
-    traceorder: 'reversed', 
-    font: {size: 16}, 
-    yref: 'paper'
-},
-  Xaxis: {title: 'Mottagning'},
-  yaxis: {title: 'Years'}};
+var layout_access2 = {
+  title: '',
+  xaxis: {
+    title: 'Mottagning',
+    tickangle: 35
+  },
+  yaxis: {
+    title: 'Satisfaction in Percent'
+  }
+};
 
-  Plotly.newPlot('myDiv', data, layout, {showSendToCloud: true});
+  Plotly.newPlot('myDiv', data, layout_access2 );
 </script>
 
 <script>
@@ -221,29 +245,18 @@ var trace13 = {
 };
 var myreview = [trace7, trace8, trace9,trace10, trace11, trace12, trace13];
 
-var layout = {legend: {
-    y: 0.5, 
-    traceorder: 'reversed', 
-    font: {size: 16}, 
-    yref: 'paper'
-},
-Xaxis: {
-    autorange: true,
-    showgrid: false,
-    zeroline: false,
-    showline: false,
-    autotick: true,
-    ticks: '',
-    showticklabels: false,
-     title: 'Municipalities of Stockholm'
+
+var layout_Review = {
+  title: '',
+  xaxis: {
+    title: 'Municipalities of Stockholm'
   },
   yaxis: {
-    range: [40, 90],
     title: 'Reviews in percent'
   }
 };
 
-    Plotly.newPlot('mychart', myreview, layout, {showSendToCloud: true});
+    Plotly.newPlot('mychart', myreview, layout_Review);
 </script>
 
     

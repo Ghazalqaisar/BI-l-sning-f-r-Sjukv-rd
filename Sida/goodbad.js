@@ -99,21 +99,21 @@ var vard =
    "accessibility": "-3"
  },
  {
-   "Mottagning": "Äppelvikens Läkarmottagning",
+   "Mottagning": "Äppelvikens",
    "Ort": "Bromma",
    "year15": "100",
    "year16": "99",
    "accessibility": "-1"
  },
  {
-   "Mottagning": "Djursholms Husläkar",
+   "Mottagning": "Djursholms",
    "Ort": "Danderyd",
    "year15": "93",
    "year16": "90",
    "accessibility": "-3"
  },
  {
-   "Mottagning": "DjursholmsDoktorn",
+   "Mottagning": "DjursholmsDok",
    "Ort": "Danderyd",
    "year15": "96",
    "year16": "96",
@@ -127,7 +127,7 @@ var vard =
    "accessibility": "1"
  },
  {
-   "Mottagning": "Kvartersakuten Mörby Centrum",
+   "Mottagning": "Kvartersakuten",
    "Ort": "Danderyd",
    "year15": "96",
    "year16": "95",
@@ -141,70 +141,70 @@ var vard =
    "accessibility": "-6"
  },
  {
-   "Mottagning": "Stocksunds ",
+   "Mottagning": "Stocksunds",
    "Ort": "Danderyd",
    "year15": "95",
    "year16": "91",
    "accessibility": "-4"
  },
  {
-   "Mottagning": "Ekerö ",
+   "Mottagning": "Ekerö",
    "Ort": "Ekerö",
    "year15": "84",
    "year16": "86",
    "accessibility": "2"
  },
  {
-   "Mottagning": "Munsö Husläkar",
+   "Mottagning": "Munsö",
    "Ort": "Ekerö",
    "year15": "97",
    "year16": "93",
    "accessibility": "-4"
  },
  {
-   "Mottagning": "Stenhamra hälsocentral",
+   "Mottagning": "Stenhamra",
    "Ort": "Ekerö",
    "year15": "90",
    "year16": "90",
    "accessibility": "0"
  },
  {
-   "Mottagning": "Veritas Ekerö",
+   "Mottagning": "Veritas",
    "Ort": "Ekerö",
    "year15": "86",
    "year16": "82",
    "accessibility": "-4"
  },
  {
-   "Mottagning": "Capio Gullmarsplan",
+   "Mottagning": "Gullmarsplan",
    "Ort": "Enskede-Årsta-Vantör",
    "year15": "81",
    "year16": "73",
    "accessibility": "-8"
  },
  {
-   "Mottagning": "Capio Hagsätra",
+   "Mottagning": "Hagsätra",
    "Ort": "Enskede-Årsta-Vantör",
    "year15": "85",
    "year16": "82",
    "accessibility": "-3"
  },
  {
-   "Mottagning": "Capio Högdalen",
+   "Mottagning": "Högdalen",
    "Ort": "Enskede-Årsta-Vantör",
    "year15": "80",
    "year16": "74",
    "accessibility": "-6"
  },
  {
-   "Mottagning": "Capio Rågsved",
+   "Mottagning": "Rågsved",
    "Ort": "Enskede-Årsta-Vantör",
    "year15": "68",
    "year16": "65",
    "accessibility": "-3"
  },
  {
-   "Mottagning": "Capio Årsta",
+   "Mottagning": "Årsta",
    "Ort": "Enskede-Årsta-Vantör",
    "year15": "86",
    "year16": "74",
@@ -225,28 +225,28 @@ var vard =
    "accessibility": "-1"
  },
  {
-   "Mottagning": "Capio Farsta",
+   "Mottagning": "Farsta",
    "Ort": "Farsta",
    "year15": "73",
    "year16": "65",
    "accessibility": "-8"
  },
  {
-   "Mottagning": "Capio Gubbängen",
+   "Mottagning": "Gubbängen",
    "Ort": "Farsta",
    "year15": "86",
    "year16": "69",
    "accessibility": "-17"
  },
  {
-   "Mottagning": "Curera Farsta Husläkar",
+   "Mottagning": "Curera Farsta",
    "Ort": "Farsta",
    "year15": "77",
    "year16": "84",
    "accessibility": "7"
  },
  {
-   "Mottagning": "Sköndals Husläkar",
+   "Mottagning": "Sköndals",
    "Ort": "Farsta",
    "year15": "90",
    "year16": "84",
@@ -267,21 +267,21 @@ var vard =
    "accessibility": "-6"
  },
  {
-   "Mottagning": "Familjeläkarna Tungelsta",
+   "Mottagning": "Familjeläkarna",
    "Ort": "Haninge",
    "year15": "73",
    "year16": "86",
    "accessibility": "13"
  },
  {
-   "Mottagning": "Handens (+Dalarö, Utö)",
+   "Mottagning": "Handens",
    "Ort": "Haninge",
    "year15": "75",
    "year16": "73",
    "accessibility": "-2"
  },
  {
-   "Mottagning": "Hälsocentralen AKKA",
+   "Mottagning": "AKKA",
    "Ort": "Haninge",
    "year15": "78",
    "year16": "80",
@@ -309,7 +309,7 @@ var vard =
    "accessibility": "-9"
  },
  {
-   "Mottagning": "Capio Skogås",
+   "Mottagning": " Skogås",
    "Ort": "Huddinge",
    "year15": "85",
    "year16": "67",
@@ -400,7 +400,7 @@ var vard =
    "accessibility": "-9"
  },
  {
-   "Mottagning": "Husläkar Västervården",
+   "Mottagning": " Västervården",
    "Ort": "Hässelby-Vällingby",
    "year15": "83",
    "year16": "83",
@@ -414,7 +414,7 @@ var vard =
    "accessibility": "-5"
  },
  {
-   "Mottagning": "Råcksta-Vällingby närvårdsmottagning",
+   "Mottagning": "Råcksta",
    "Ort": "Hässelby-Vällingby",
    "year15": "73",
    "year16": "73",
@@ -435,7 +435,7 @@ var vard =
    "accessibility": "-1"
  },
  {
-   "Mottagning": "Capio Viksjö",
+   "Mottagning": " Viksjö",
    "Ort": "Järfälla",
    "year15": "88",
    "year16": "79",
@@ -449,35 +449,35 @@ var vard =
    "accessibility": "-4"
  },
  {
-   "Mottagning": "Kallhälls nya ",
+   "Mottagning": "Kallhälls ",
    "Ort": "Järfälla",
    "year15": "88",
    "year16": "81",
    "accessibility": "-7"
  },
  {
-   "Mottagning": "Vibblaby Husläkar",
+   "Mottagning": "Vibblaby ",
    "Ort": "Järfälla",
    "year15": "91",
    "year16": "89",
    "accessibility": "-2"
  },
  {
-   "Mottagning": "en Flottiljen",
+   "Mottagning": "Flottiljen",
    "Ort": "Järfälla",
    "year15": "91",
    "year16": "89",
    "accessibility": "-2"
  },
  {
-   "Mottagning": "Capio Kungsholmen",
+   "Mottagning": " Kungsholmen",
    "Ort": "Kungsholmen",
    "year15": "85",
    "year16": "83",
    "accessibility": "-2"
  },
  {
-   "Mottagning": "Doktor Kom Hem",
+   "Mottagning": "Doktor KomHem",
    "Ort": "Kungsholmen",
    "year15": "86",
    "year16": "92",
@@ -498,21 +498,21 @@ var vard =
    "accessibility": "-8"
  },
  {
-   "Mottagning": "Husläkar Stockholms sjukhem",
+   "Mottagning": " Stockholms",
    "Ort": "Kungsholmen",
    "year15": "90",
    "year16": "85",
    "accessibility": "-5"
  },
  {
-   "Mottagning": "Kungsholmsdoktorn",
+   "Mottagning": "Kungsholms",
    "Ort": "Kungsholmen",
    "year15": "90",
    "year16": "96",
    "accessibility": "6"
  },
  {
-   "Mottagning": "Kvartersakuten Serafen",
+   "Mottagning": "Serafen",
    "Ort": "Kungsholmen",
    "year15": "89",
    "year16": "85",
@@ -526,14 +526,14 @@ var vard =
    "accessibility": "-5"
  },
  {
-   "Mottagning": "Capio Lidingö",
+   "Mottagning": " Lidingö",
    "Ort": "Lidingö",
    "year15": "86",
    "year16": "85",
    "accessibility": "-1"
  },
  {
-   "Mottagning": "LidingöDoktorn",
+   "Mottagning": "LidingöDoktor",
    "Ort": "Lidingö",
    "year15": "92",
    "year16": "86",
@@ -547,7 +547,7 @@ var vard =
    "accessibility": "1"
  },
  {
-   "Mottagning": "Vården i Centrum",
+   "Mottagning": "Vården",
    "Ort": "Lidingö",
    "year15": "93",
    "year16": "90",
@@ -575,7 +575,7 @@ var vard =
    "accessibility": "-1"
  },
  {
-   "Mottagning": "Familjeläkarna i Saltsjöbaden AB",
+   "Mottagning": "Saltsjöbaden",
    "Ort": "Nacka",
    "year15": "86",
    "year16": "87",
@@ -596,7 +596,7 @@ var vard =
    "accessibility": "-3"
  },
  {
-   "Mottagning": "Helsa Älta",
+   "Mottagning": "Älta",
    "Ort": "Nacka",
    "year15": "88",
    "year16": "80",
@@ -610,35 +610,35 @@ var vard =
    "accessibility": "-1"
  },
  {
-   "Mottagning": "Sickla hälsocenter",
+   "Mottagning": "Sickla",
    "Ort": "Nacka",
    "year15": "91",
    "year16": "87",
    "accessibility": "-4"
  },
  {
-   "Mottagning": "Sickla Hälsocenter Danviken",
+   "Mottagning": "Sickla Danviken",
    "Ort": "Nacka",
    "year15": "94",
    "year16": "89",
    "accessibility": "-5"
  },
  {
-   "Mottagning": "CityAkutens Husläkar",
+   "Mottagning": "CityAkutens ",
    "Ort": "Norrmalm",
    "year15": "82",
    "year16": "82",
    "accessibility": "0"
  },
  {
-   "Mottagning": "Familjeläkargruppen Odenplan",
+   "Mottagning": " Odenplan",
    "Ort": "Norrmalm",
    "year15": "90",
    "year16": "89",
    "accessibility": "-1"
  },
  {
-   "Mottagning": "Husläkar Johannes",
+   "Mottagning": " Johannes",
    "Ort": "Norrmalm",
    "year15": "92",
    "year16": "88",
@@ -652,21 +652,21 @@ var vard =
    "accessibility": "–"
  },
  {
-   "Mottagning": "Kvartersakuten Matteus",
+   "Mottagning": " Matteus",
    "Ort": "Norrmalm",
    "year15": "88",
    "year16": "85",
    "accessibility": "-3"
  },
  {
-   "Mottagning": "Kvartersakuten Surbrunn",
+   "Mottagning": "Surbrunn",
    "Ort": "Norrmalm",
    "year15": "87",
    "year16": "83",
    "accessibility": "-4"
  },
  {
-   "Mottagning": "Kvartersakuten Tegnérgatan",
+   "Mottagning": "Tegnérgatan",
    "Ort": "Norrmalm",
    "year15": "91",
    "year16": "89",
@@ -680,7 +680,7 @@ var vard =
    "accessibility": "-1"
  },
  {
-   "Mottagning": "Rimbo hälso- och ",
+   "Mottagning": "Rimbo ",
    "Ort": "Norrtälje",
    "year15": "94",
    "year16": "91",
@@ -694,14 +694,14 @@ var vard =
    "accessibility": "8"
  },
  {
-   "Mottagning": "Lugn och Ro Centrum",
+   "Mottagning": "Lugn och Ro",
    "Ort": "Norrtälje",
    "year15": "86",
    "year16": "87",
    "accessibility": "1"
  },
  {
-   "Mottagning": "Husläkarna Rimbo-Edsbro",
+   "Mottagning": " Rimbo-Edsbro",
    "Ort": "Norrtälje",
    "year15": "78",
    "year16": "83",
@@ -715,7 +715,7 @@ var vard =
    "accessibility": "-11"
  },
  {
-   "Mottagning": "Norrtälje Södra",
+   "Mottagning": "Norrtälje",
    "Ort": "Norrtälje",
    "year15": "87",
    "year16": "79",
@@ -736,7 +736,7 @@ var vard =
    "accessibility": "-13"
  },
  {
-   "Mottagning": "Husläkar Bryggargatan",
+   "Mottagning": " Bryggargatan",
    "Ort": "Nynäshamn",
    "year15": "88",
    "year16": "86",
@@ -750,7 +750,7 @@ var vard =
    "accessibility": "-5"
  },
  {
-   "Mottagning": "Ösmo (+Sorunda)",
+   "Mottagning": "Ösmo",
    "Ort": "Nynäshamn",
    "year15": "88",
    "year16": "88",
@@ -764,21 +764,21 @@ var vard =
    "accessibility": "–"
  },
  {
-   "Mottagning": "Aleris Järva",
+   "Mottagning": "Järva",
    "Ort": "Rinkeby-Kista",
    "year15": "78",
    "year16": "76",
    "accessibility": "-2"
  },
  {
-   "Mottagning": "Familjeläkarna i Husby",
+   "Mottagning": "Husby",
    "Ort": "Rinkeby-Kista",
    "year15": "77",
    "year16": "75",
    "accessibility": "-2"
  },
  {
-   "Mottagning": "Husby Akalla ",
+   "Mottagning": "Akalla ",
    "Ort": "Rinkeby-Kista",
    "year15": "78",
    "year16": "83",
@@ -806,21 +806,21 @@ var vard =
    "accessibility": "16"
  },
  {
-   "Mottagning": "Tibra Medica Husläkar",
+   "Mottagning": "Tibra",
    "Ort": "Rinkeby-Kista",
    "year15": "81",
    "year16": "75",
    "accessibility": "-6"
  },
  {
-   "Mottagning": "Arkadens läkarmottagning",
+   "Mottagning": "Arkadens",
    "Ort": "Sigtuna",
    "year15": "89",
    "year16": "88",
    "accessibility": "-1"
  },
  {
-   "Mottagning": "Din Doktor Märsta",
+   "Mottagning": " Märsta",
    "Ort": "Sigtuna",
    "year15": "90",
    "year16": "85",
@@ -869,21 +869,21 @@ var vard =
    "accessibility": "-3"
  },
  {
-   "Mottagning": "Aleris Björkhagen",
+   "Mottagning": "Björkhagen",
    "Ort": "Skarpnäck",
    "year15": "78",
    "year16": "72",
    "accessibility": "-6"
  },
  {
-   "Mottagning": "Din Bagarmossen",
+   "Mottagning": "Bagarmossen",
    "Ort": "Skarpnäck",
    "year15": "78",
    "year16": "70",
    "accessibility": "-8"
  },
  {
-   "Mottagning": "en i Skarpnäck",
+   "Mottagning": " Skarpnäck",
    "Ort": "Skarpnäck",
    "year15": "83",
    "year16": "88",
@@ -897,7 +897,7 @@ var vard =
    "accessibility": "-5"
  },
  {
-   "Mottagning": "Capio Vårberg",
+   "Mottagning": " Vårberg",
    "Ort": "Skärholmen",
    "year15": "Saknas",
    "year16": "80",
@@ -925,7 +925,7 @@ var vard =
    "accessibility": "–"
  },
  {
-   "Mottagning": "Attundahälsan Familjeläkare",
+   "Mottagning": "Attundahälsan",
    "Ort": "Sollentuna",
    "year15": "91",
    "year16": "82",
@@ -939,14 +939,14 @@ var vard =
    "accessibility": "-3"
  },
  {
-   "Mottagning": "Fem Husläkare",
+   "Mottagning": "Fem ",
    "Ort": "Sollentuna",
    "year15": "84",
    "year16": "85",
    "accessibility": "1"
  },
  {
-   "Mottagning": "Lundens Husläkar",
+   "Mottagning": "Lundens ",
    "Ort": "Sollentuna",
    "year15": "89",
    "year16": "95",
@@ -974,21 +974,21 @@ var vard =
    "accessibility": "-7"
  },
  {
-   "Mottagning": "Bergshamra Ulriksdals ",
+   "Mottagning": "Bergshamra",
    "Ort": "Solna",
    "year15": "81",
    "year16": "80",
    "accessibility": "-1"
  },
  {
-   "Mottagning": "Capio Solna",
+   "Mottagning": " Solna",
    "Ort": "Solna",
    "year15": "84",
    "year16": "76",
    "accessibility": "-8"
  },
  {
-   "Mottagning": "Hagalund Frösunda ",
+   "Mottagning": "Hagalund ",
    "Ort": "Solna",
    "year15": "76",
    "year16": "78",
@@ -1016,14 +1016,14 @@ var vard =
    "accessibility": "-12"
  },
  {
-   "Mottagning": "To Care Husläkar Solna Sundbyberg",
+   "Mottagning": "Solna Sundbyberg",
    "Ort": "Solna",
    "year15": "86",
    "year16": "78",
    "accessibility": "-8"
  },
  {
-   "Mottagning": "en Solnas Hjärta   ",
+   "Mottagning": "Solnas Hjärta   ",
    "Ort": "Solna",
    "year15": "94",
    "year16": "93",
@@ -1037,7 +1037,7 @@ var vard =
    "accessibility": "–"
  },
  {
-   "Mottagning": "Hälsans Tensta",
+   "Mottagning": "Tensta",
    "Ort": "Spånga-Tensta",
    "year15": "Saknas",
    "year16": "Saknas",
@@ -1065,7 +1065,7 @@ var vard =
    "accessibility": "-10"
  },
  {
-   "Mottagning": "Helsa Sundbyberg",
+   "Mottagning": "Sundbyberg",
    "Ort": "Sundbyberg",
    "year15": "76",
    "year16": "65",
@@ -1079,42 +1079,42 @@ var vard =
    "accessibility": "-7"
  },
  {
-   "Mottagning": "Capio Ringen",
+   "Mottagning": " Ringen",
    "Ort": "Södermalm",
    "year15": "84",
    "year16": "80",
    "accessibility": "-4"
  },
  {
-   "Mottagning": "Capio Slussen",
+   "Mottagning": " Slussen",
    "Ort": "Södermalm",
    "year15": "86",
    "year16": "85",
    "accessibility": "-1"
  },
  {
-   "Mottagning": "Capio Södermalm",
+   "Mottagning": " Södermalm",
    "Ort": "Södermalm",
    "year15": "76",
    "year16": "68",
    "accessibility": "-8"
  },
  {
-   "Mottagning": "Hammarby Sjöstads Husläkare",
+   "Mottagning": "Sjöstads",
    "Ort": "Södermalm",
    "year15": "89",
    "year16": "88",
    "accessibility": "-1"
  },
  {
-   "Mottagning": "Helsa Hornstull",
+   "Mottagning": "Hornstull",
    "Ort": "Södermalm",
    "year15": "86",
    "year16": "81",
    "accessibility": "-5"
  },
  {
-   "Mottagning": "Mottagningen Sjöstaden",
+   "Mottagning": "Sjöstaden",
    "Ort": "Södermalm",
    "year15": "89",
    "year16": "91",
@@ -1128,14 +1128,14 @@ var vard =
    "accessibility": "-4"
  },
  {
-   "Mottagning": "Sjöstadsdoktorn",
+   "Mottagning": "Sjöstads",
    "Ort": "Södermalm",
    "year15": "94",
    "year16": "84",
    "accessibility": "-10"
  },
  {
-   "Mottagning": "Söderdoktorn",
+   "Mottagning": "Söder",
    "Ort": "Södermalm",
    "year15": "83",
    "year16": "81",
@@ -1149,42 +1149,42 @@ var vard =
    "accessibility": "-2"
  },
  {
-   "Mottagning": "Aleris Järna",
+   "Mottagning": "Järna",
    "Ort": "Södertälje",
    "year15": "83",
    "year16": "83",
    "accessibility": "0"
  },
  {
-   "Mottagning": "Aleris Nykvarn",
+   "Mottagning": "Nykvarn",
    "Ort": "Nykvarn",
    "year15": "86",
    "year16": "91",
    "accessibility": "5"
  },
  {
-   "Mottagning": "Capio Lina Hage",
+   "Mottagning": " Hage",
    "Ort": "Södertälje",
    "year15": "85",
    "year16": "90",
    "accessibility": "5"
  },
  {
-   "Mottagning": "Capio Wasa",
+   "Mottagning": " Wasa",
    "Ort": "Södertälje",
    "year15": "82",
    "year16": "84",
    "accessibility": "2"
  },
  {
-   "Mottagning": "Fornhöjdens Vårdcentrum",
+   "Mottagning": "Fornhöjdens",
    "Ort": "Södertälje",
    "year15": "88",
    "year16": "86",
    "accessibility": "-2"
  },
  {
-   "Mottagning": "Kringlans Vårdcentrum",
+   "Mottagning": "Kringlans ",
    "Ort": "Södertälje",
    "year15": "88",
    "year16": "87",
@@ -1205,7 +1205,7 @@ var vard =
    "accessibility": "-7"
  },
  {
-   "Mottagning": "Scania Hälsocenter",
+   "Mottagning": "Scania ",
    "Ort": "Södertälje",
    "year15": "92",
    "year16": "82",
@@ -1226,7 +1226,7 @@ var vard =
    "accessibility": "-2"
  },
  {
-   "Mottagning": "Tveta hälsocentral",
+   "Mottagning": "Tveta ",
    "Ort": "Södertälje",
    "year15": "86",
    "year16": "79",
@@ -1240,14 +1240,14 @@ var vard =
    "accessibility": "-2"
  },
  {
-   "Mottagning": "en Badhotellet",
+   "Mottagning": "Badhotellet",
    "Ort": "Södertälje",
    "year15": "90",
    "year16": "90",
    "accessibility": "0"
  },
  {
-   "Mottagning": "Aleris Tyresö",
+   "Mottagning": "Tyresö",
    "Ort": "Tyresö",
    "year15": "64",
    "year16": "50",
@@ -1268,35 +1268,35 @@ var vard =
    "accessibility": "-1"
  },
  {
-   "Mottagning": "Aleris Husläkar Täby Centrum",
+   "Mottagning": " Täby Centrum",
    "Ort": "Täby",
    "year15": "78",
    "year16": "82",
    "accessibility": "4"
  },
  {
-   "Mottagning": "Aleris Husläkar Näsby Park",
+   "Mottagning": " Näsby Park",
    "Ort": "Täby",
    "year15": "86",
    "year16": "88",
    "accessibility": "2"
  },
  {
-   "Mottagning": "Roslags Näsby Husläkar",
+   "Mottagning": "Roslags Näsby ",
    "Ort": "Täby",
    "year15": "Saknas",
    "year16": "93",
    "accessibility": "–"
  },
  {
-   "Mottagning": "Täby Centrum Doktorn",
+   "Mottagning": "Täby Centrum ",
    "Ort": "Täby",
    "year15": "89",
    "year16": "88",
    "accessibility": "-1"
  },
  {
-   "Mottagning": "Täby Kyrkby Husläkar",
+   "Mottagning": "Täby Kyrkby ",
    "Ort": "Täby",
    "year15": "91",
    "year16": "87",
@@ -1310,14 +1310,14 @@ var vard =
    "accessibility": "-3"
  },
  {
-   "Mottagning": "Aleris Vallatorpsdoktorn",
+   "Mottagning": "Vallatorps",
    "Ort": "Täby",
    "year15": "85",
    "year16": "84",
    "accessibility": "-1"
  },
  {
-   "Mottagning": "Capio Bro ",
+   "Mottagning": " Bro ",
    "Ort": "Upplands Bro",
    "year15": "68",
    "year16": "62",
@@ -1331,7 +1331,7 @@ var vard =
    "accessibility": "-5"
  },
  {
-   "Mottagning": "Capio Väsby",
+   "Mottagning": " Väsby",
    "Ort": "Upplands Väsby",
    "year15": "73",
    "year16": "73",
@@ -1352,42 +1352,42 @@ var vard =
    "accessibility": "-1"
  },
  {
-   "Mottagning": "Väsby Läkargrupp Husläkar",
+   "Mottagning": "Väsby  ",
    "Ort": "Upplands Väsby",
    "year15": "90",
    "year16": "85",
    "accessibility": "-5"
  },
  {
-   "Mottagning": "Östra en",
+   "Mottagning": "Östra",
    "Ort": "Upplands Väsby",
    "year15": "87",
    "year16": "81",
    "accessibility": "-6"
  },
  {
-   "Mottagning": "Helsa Vallentuna",
+   "Mottagning": "Vallentuna",
    "Ort": "Vallentuna",
    "year15": "85",
    "year16": "78",
    "accessibility": "-7"
  },
  {
-   "Mottagning": "Husläkar Korallen",
+   "Mottagning": " Korallen",
    "Ort": "Vallentuna",
    "year15": "87",
    "year16": "85",
    "accessibility": "-2"
  },
  {
-   "Mottagning": "Vallentuna Husläkargrupp",
+   "Mottagning": "Vallentuna grupp",
    "Ort": "Vallentuna",
    "year15": "85",
    "year16": "83",
    "accessibility": "-2"
  },
  {
-   "Mottagning": "Djurö (+Värmdö skärgård)",
+   "Mottagning": "Djurö",
    "Ort": "Värmdö",
    "year15": "93",
    "year16": "92",
@@ -1422,21 +1422,21 @@ var vard =
    "accessibility": "0"
  },
  {
-   "Mottagning": "Aleris Stureplan",
+   "Mottagning": "Stureplan",
    "Ort": "Östermalm",
    "year15": "88",
    "year16": "90",
    "accessibility": "2"
  },
  {
-   "Mottagning": "Banérgatans Husläkar",
+   "Mottagning": "Banérgatans ",
    "Ort": "Östermalm",
    "year15": "94",
    "year16": "84",
    "accessibility": "-10"
  },
  {
-   "Mottagning": "Capio Östermalm",
+   "Mottagning": " Östermalm",
    "Ort": "Östermalm",
    "year15": "77",
    "year16": "84",
@@ -1450,42 +1450,42 @@ var vard =
    "accessibility": "-4"
  },
  {
-   "Mottagning": "Husläkar Sophiahemmet",
+   "Mottagning": " Sophiahemmet",
    "Ort": "Östermalm",
    "year15": "82",
    "year16": "81",
    "accessibility": "-1"
  },
  {
-   "Mottagning": "Lill-Jans Husläkar",
+   "Mottagning": "Lill-Jans ",
    "Ort": "Östermalm",
    "year15": "90",
    "year16": "91",
    "accessibility": "1"
  },
  {
-   "Mottagning": "Sibyllekliniken Husläkar",
+   "Mottagning": "Sibyllekliniken ",
    "Ort": "Östermalm",
    "year15": "82",
    "year16": "83",
    "accessibility": "1"
  },
  {
-   "Mottagning": "To Care Husläkar",
+   "Mottagning": "To Care ",
    "Ort": "Östermalm",
    "year15": "86",
    "year16": "84",
    "accessibility": "-2"
  },
  {
-   "Mottagning": "Husläkarna i Margretelund",
+   "Mottagning": "Margretelund",
    "Ort": "Österåker",
    "year15": "86",
    "year16": "86",
    "accessibility": "0"
  },
  {
-   "Mottagning": "Husläkarna i Österåker",
+   "Mottagning": "Österåker",
    "Ort": "Österåker",
    "year15": "86",
    "year16": "84",
@@ -1499,7 +1499,7 @@ var vard =
    "accessibility": "-5"
  },
  {
-   "Mottagning": "Österåkersdoktorn",
+   "Mottagning": "Österåkers",
    "Ort": "Österåker",
    "year15": "80",
    "year16": "71",
