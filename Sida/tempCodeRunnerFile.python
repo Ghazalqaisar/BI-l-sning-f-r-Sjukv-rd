@@ -1,0 +1,6 @@
+#Importing libraries
+
+import pandas as pd
+
+#import numpy
+dataframe = pd.read_csv("property_data.csv")
